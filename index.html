@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>技術コラム プレビュー管理ダッシュボード</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --secondary: #34495e;
+            --accent: #3498db;
+            --bg-color: #f8f9fa;
+            --card-bg: #ffffff;
+            --text: #333333;
+            --text-muted: #7f8c8d;
+            --border: #e2e8f0;
+            --status-drafting: #f39c12;
+            --status-reviewing: #e67e22;
+            --status-published: #27ae60;
+        }
+        body {
+            font-family: 'Noto Sans JP', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            padding: 0; margin: 0;
+            background-color: var(--bg-color);
+            color: var(--text);
+        }
+        .header {
+            background-color: var(--primary);
+            color: white;
+            padding: 20px 40px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .header h1 { margin: 0; font-size: 1.5rem; letter-spacing: 0.05em; }
+        .header p { margin: 8px 0 0 0; font-size: 0.9rem; color: #bdc3c7; }
+        .container { max-width: 1000px; margin: 40px auto; padding: 0 20px; }
+        .month-section { margin-bottom: 40px; }
+        .month-header {
+            font-size: 1.3rem; color: var(--primary);
+            border-bottom: 2px solid var(--accent);
+            padding-bottom: 10px; margin-bottom: 20px;
+        }
+        .column-list { list-style: none; padding: 0; margin: 0; }
+        .column-card {
+            background: var(--card-bg); margin-bottom: 15px;
+            border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            border: 1px solid var(--border);
+            display: flex;
+            align-items: stretch;
+            overflow: hidden;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .column-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        .card-left {
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--secondary);
+            padding: 0 14px;
+            min-width: 70px;
+        }
+        .id-badge {
+            color: white;
+            font-size: 0.8rem;
+            font-weight: bold;
+            font-family: monospace;
+            text-align: center;
+            line-height: 1.4;
+            white-space: nowrap;
+        }
+        .column-info {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        .card-top {
+            padding: 16px 20px 12px 20px;
+            flex-grow: 1;
+            display: flex;
+            align-items: center;
+        }
+        .card-bottom {
+            border-top: 1px solid var(--border);
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            background-color: #f8f9fa;
+        }
+        .column-title {
+            text-decoration: none; color: var(--accent);
+            font-weight: bold; font-size: 1.1rem;
+            line-height: 1.5;
+        }
+        .column-title:hover { text-decoration: underline; color: #2980b9; }
+        .meta-date {
+            color: var(--text-muted);
+            font-size: 0.82rem;
+            white-space: nowrap;
+        }
+        .meta-char-count {
+            color: var(--text-muted);
+            font-size: 0.82rem;
+            white-space: nowrap;
+        }
+        .feedback-link {
+            color: var(--accent);
+            text-decoration: none;
+            font-size: 0.82rem;
+            font-weight: bold;
+            padding: 4px 12px;
+            border-radius: 4px;
+            background-color: rgba(52, 152, 219, 0.08);
+            border: 1px solid rgba(52, 152, 219, 0.2);
+            transition: all 0.2s ease;
+            white-space: nowrap;
+        }
+        .feedback-link:hover {
+            background-color: var(--accent);
+            color: white;
+            border-color: var(--accent);
+        }
+        .status-wrapper {
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0 16px;
+            min-width: 80px;
+        }
+        .status-text {
+            font-size: 0.85rem;
+            font-weight: bold;
+            color: white;
+            text-align: center;
+            white-space: nowrap;
+        }
+        .status-drafting { background-color: var(--status-drafting); }
+        .status-reviewing { background-color: var(--status-reviewing); }
+        .status-published { background-color: var(--status-published); }
+        .footer-note {
+            text-align: center; color: var(--text-muted);
+            font-size: 0.8rem; margin-top: 40px; padding-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>技術コラム プレビュー管理ダッシュボード</h1>
+        <p>関係者プレビューおよび進捗ステータス確認用ページ（URLを知っている人のみ閲覧可能）</p>
+    </header>
+
+    <div class="container">
+
+        <section class="month-section">
+            <h2 class="month-header">2026年03月 公開予定分</h2>
+            <ul class="column-list">
+                <li class="column-card">
+                    <div class="card-left">
+                        <span class="id-badge">ID:<br>2603-01</span>
+                    </div>
+                    <div class="column-info">
+                        <div class="card-top">
+                            <a href="./preview_2603-01.html" class="column-title">車載センサーは「老化」する。 自動運転の信頼性を左右する「センサー・デグラデーション」への処方箋</a>
+                        </div>
+                        <div class="card-bottom">
+                            <span class="meta-date">🗓️ プレビュー投稿日: 2026.03.06</span>
+                            <span class="meta-char-count">✍️ 推定文字数: 2,901文字</span>
+                            <a href="https://docs.google.com/document/d/1zYGgUGRR90EOFrQEHDQ9JHNPh9aFCDMu-9U93gPn2dM/edit?tab=t.0#heading=h.xv0uzskpcwej" target="_blank" class="feedback-link">💬 改善内容を投稿する（Googleドキュメントへ）</a>
+                        </div>
+                    </div>
+                    <div class="status-wrapper status-reviewing">
+                        <span class="status-text">確認中</span>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+    </div>
+
+    <p class="footer-note">最終更新: 2026.03.07 19:18 ｜ このページは検索エンジンには表示されない限定公開ページです</p>
+</body>
+</html>
