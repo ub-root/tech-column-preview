@@ -142,6 +142,15 @@
         .status-drafting { background-color: var(--status-drafting); }
         .status-reviewing { background-color: var(--status-reviewing); }
         .status-published { background-color: var(--status-published); }
+        .card-draft {
+            opacity: 0.45;
+            filter: grayscale(60%);
+        }
+        .card-draft:hover {
+            opacity: 0.55;
+            transform: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
         .footer-note {
             text-align: center; color: var(--text-muted);
             font-size: 0.8rem; margin-top: 40px; padding-bottom: 20px;
@@ -159,7 +168,7 @@
         <section class="month-section">
             <h2 class="month-header">2026年05月 公開予定分</h2>
             <ul class="column-list">
-                <li class="column-card">
+                <li class="column-card card-draft">
                     <div class="card-left">
                         <span class="id-badge">ID:<br>2605-01</span>
                     </div>
@@ -173,8 +182,8 @@
                             <a href="https://docs.google.com/document/d/1zYGgUGRR90EOFrQEHDQ9JHNPh9aFCDMu-9U93gPn2dM/edit?tab=t.29ee94o832hp" target="_blank" class="feedback-link">💬 改善内容を投稿する（Googleドキュメントへ）</a>
                         </div>
                     </div>
-                    <div class="status-wrapper status-reviewing">
-                        <span class="status-text">確認中</span>
+                    <div class="status-wrapper status-drafting">
+                        <span class="status-text">下書き</span>
                     </div>
                 </li>
             </ul>
@@ -197,8 +206,8 @@
                             <a href="https://docs.google.com/document/d/1zYGgUGRR90EOFrQEHDQ9JHNPh9aFCDMu-9U93gPn2dM/edit?tab=t.29ee94o832hp" target="_blank" class="feedback-link">💬 改善内容を投稿する（Googleドキュメントへ）</a>
                         </div>
                     </div>
-                    <div class="status-wrapper status-drafting">
-                        <span class="status-text">画像作成中</span>
+                    <div class="status-wrapper status-reviewing">
+                        <span class="status-text">最終確認中</span>
                     </div>
                 </li>
                 <li class="column-card">
@@ -216,7 +225,7 @@
                         </div>
                     </div>
                     <div class="status-wrapper status-reviewing">
-                        <span class="status-text">確認中</span>
+                        <span class="status-text">最終確認中</span>
                     </div>
                 </li>
             </ul>
@@ -239,8 +248,8 @@
                             <a href="https://docs.google.com/document/d/1zYGgUGRR90EOFrQEHDQ9JHNPh9aFCDMu-9U93gPn2dM/edit?tab=t.29ee94o832hp" target="_blank" class="feedback-link">💬 改善内容を投稿する（Googleドキュメントへ）</a>
                         </div>
                     </div>
-                    <div class="status-wrapper status-drafting">
-                        <span class="status-text">画像作成中</span>
+                    <div class="status-wrapper status-reviewing">
+                        <span class="status-text">最終確認中</span>
                     </div>
                 </li>
             </ul>
