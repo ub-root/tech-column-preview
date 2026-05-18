@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ja" prefix="og: https://ogp.me/ns#" class="no-js">
+<head>
+<base href="https://evoltech-shiken.com/">
+
+	<meta charset="UTF-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="format-detection" content="telephone=no">
+	<script>(function(){document.documentElement.className='js'})();</script>
+	<title>自動運転トラックは「実験」から「仕組みづくり」へ移りつつある | コラム | エボルテック株式会社</title>
+
+	<meta name="robots" content="noindex, nofollow" />
+
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+
+<style id='wp-img-auto-sizes-contain-inline-css' type='text/css'>
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+</style>
+<style id='wp-block-library-inline-css' type='text/css'>
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-border-width-focus:2px}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.screen-reader-text{border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal!important}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}
+</style>
+<style id='wp-block-heading-inline-css' type='text/css'>
+h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-background,h3:where(.wp-block-heading).has-background,h4:where(.wp-block-heading).has-background,h5:where(.wp-block-heading).has-background,h6:where(.wp-block-heading).has-background{padding:1.25em 2.375em}
+</style>
+<style id='wp-block-list-inline-css' type='text/css'>
+ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:1.25em 2.375em}
+</style>
+<style id='wp-block-separator-inline-css' type='text/css'>
+.wp-block-separator{border:none;border-top:2px solid}
+</style>
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}
+</style>
+<link rel='stylesheet' id='contact-form-7-css' href='https://evoltech-shiken.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='toc-screen-css' href='https://evoltech-shiken.com/wp-content/plugins/table-of-contents-plus/screen.min.css?ver=2411.1' type='text/css' media='all' />
+
+	<style type="text/css" id="wp-custom-css">
+.expert-box {
+    border: 2px solid #ccc;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}	</style>
+
+	<link rel="icon" href="https://evoltech-shiken.com/wp-content/themes/evoltech/favicon.ico" type="image/vnd.microsoft.icon">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/yakuhanjp/1.3.1/css/yakuhanjp.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Noto+Sans+JP:wght@400;500;700;900&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://evoltech-shiken.com/wp-content/themes/evoltech/style.css?ver1.0959" type="text/css">
+
+<style>
+    .preview-banner {
+        background-color: #d32f2f;
+        color: #ffffff;
+        text-align: center;
+        padding: 12px 0;
+        font-weight: bold;
+        font-size: 20px;
+        position: sticky;
+        top: 0;
+        z-index: 1000000;
+        width: 100%;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        letter-spacing: 0.1em;
+        font-family: "Noto Sans JP", sans-serif;
+    }
+    .l-header__top-inner-logo img,
+    .l-footer__top-inner-logo img,
+    .l-header__logo img,
+    p.l-header__top-inner-logo a img {
+        filter: grayscale(100%) brightness(0.8) !important;
+        opacity: 0.6 !important;
+    }
+    body::after {
+        content: "PREVIEW";
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(-45deg);
+        font-size: 15vw;
+        color: rgba(0, 0, 0, 0.03);
+        z-index: 9999999;
+        pointer-events: none;
+        white-space: nowrap;
+    }
+    .wp-block-table table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    .wp-block-table th, .wp-block-table td {
+        padding: 1.2em 1.5em !important;
+        line-height: 1.8;
+        border: 1px solid #dee2e6;
+    }
+    .ref-list { padding-left: 1.5em; }
+    .ref-list li { margin-bottom: 0.6em; line-height: 1.7; font-size: 0.9em; }
+</style>
+</head>
+<body class="wp-singular column-template-default single single-column wp-theme-evoltech">
+<div class="preview-banner">⚠️ プレビュー表示用ページ ⚠️（外部公開用ではありません）</div>
+
+<div class="l-wrap">
+	<div class="l-cover"></div>
+
+	<div class="l-humberger sp">
+		<a class="menu-trigger js-MenuBtn" href="#">
+			<span></span><span></span><span></span>
+		</a>
+	</div>
+
+	<div class="l-drawerMenu js-drawerMenu sp">
+		<div class="l-drawerMenu__inner">
+			<ul>
+				<li><a href="https://evoltech-shiken.com/" class="ov">ホーム</a></li>
+				<li><a href="https://evoltech-shiken.com/vibration_test/" class="ov">振動試験とは</a></li>
+				<li><a href="https://evoltech-shiken.com/dimensions/" class="ov">装置・治具取付け部寸法</a></li>
+				<li><a href="https://evoltech-shiken.com/environmental_tests/" class="ov">環境試験一覧</a></li>
+				<li><a href="https://evoltech-shiken.com/#schedule" class="ov">空き状況</a></li>
+				<li><a href="https://evoltech-shiken.com/column/" class="ov">コラム</a></li>
+				<li><a href="https://evoltech-shiken.com/news/" class="ov">お知らせ</a></li>
+				<li><a href="https://evoltech-shiken.com/company/" class="ov">企業情報</a></li>
+			</ul>
+			<div class="tel">
+				<a href="tel:053-523-7300" class="ov">
+					<span class="txt01">営業時間╱9時～18時（土日祝除く）</span>
+					<span class="num">053-523-7300</span>
+					<span class="txt02">無料相談・無料お見積OK！お気軽にご相談ください！</span>
+				</a>
+			</div>
+			<div class="contact">
+				<a href="https://evoltech-shiken.com/contacts/" class="ov">
+					<span class="txt01">24時間受付中</span>
+					<span class="icon">見積・お問い合わせ</span>
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<header class="l-header">
+		<div class="l-header__top define_wrap">
+			<div class="l-header__top-inner">
+				<p class="l-header__top-inner-logo">
+					<a href="https://evoltech-shiken.com/"><img src="https://evoltech-shiken.com/wp-content/themes/evoltech/images/common/logo01.png" alt="エボルテック"></a>
+				</p>
+				<div class="l-header__top-inner-right">
+					<div class="tel">
+						<p class="tel__balloon">無料相談・無料お見積OK<br>お気軽にご連絡ください！</p>
+						<div class="tel__box">
+							<p class="tel__box-num Roboto"><a href="tel:053-523-7300">053-523-7300</a></p>
+							<p class="tel__box-time">営業時間╱9時～18時（土日祝除く）</p>
+						</div>
+					</div>
+					<div class="contact js-head-contacts">
+						<a href="https://evoltech-shiken.com/contacts/" class="ov parent"><span>見積・お問い合わせ</span></a>
+						<div class="contact__child">
+							<ul class="contact__child-list">
+								<li><a href="https://evoltech-shiken.com/contacts/vibration_test/" class="ov">振動試験 各種お見積のご依頼</a></li>
+								<li><a href="https://evoltech-shiken.com/contacts/dust_resistance_test/" class="ov">塵埃試験・その他試験 お見積のご依頼</a></li>
+								<li><a href="https://evoltech-shiken.com/contacts/contact/" class="ov">一般お問い合わせ</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="l-header__bottom define_wrap">
+			<div class="l-header__bottom-inner">
+				<nav class="l-header__bottom-inner-content">
+					<ul class="navi">
+						<li><a href="https://evoltech-shiken.com/" class="ov">ホーム</a></li>
+						<li><a href="https://evoltech-shiken.com/vibration_test/" class="ov">振動試験とは</a></li>
+						<li><a href="https://evoltech-shiken.com/dimensions/" class="ov">装置・治具取付け部寸法</a></li>
+						<li><a href="https://evoltech-shiken.com/environmental_tests/" class="ov">環境試験一覧</a></li>
+						<li><a href="https://evoltech-shiken.com/#schedule" class="ov">空き状況</a></li>
+						<li><a href="https://evoltech-shiken.com/column/" class="ov">コラム</a></li>
+						<li><a href="https://evoltech-shiken.com/news/" class="ov">お知らせ</a></li>
+						<li><a href="https://evoltech-shiken.com/company/" class="ov">企業情報</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+	<main class="l-main">
+
+		<section class="c-sub-hero define_wrap">
+			<div class="c-sub-hero__inner define_inner-1000">
+				<div class="c-sub-hero__inner-box">
+					<h1 class="ttl">コラム</h1>
+					<p class="txt01 Lato">Column</p>
+				</div>
+			</div>
+		</section>
+
+		<div class="c-breadcrumb define_wrap">
+			<div class="c-breadcrumb__inner define_inner-1000">
+				<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="https://evoltech-shiken.com" class="home"><span property="name">ホーム</span></a><meta property="position" content="1"></span>
+				<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="https://evoltech-shiken.com/column/" class="archive post-column-archive"><span property="name">コラム</span></a><meta property="position" content="2"></span>
+				<span property="itemListElement" typeof="ListItem"><span property="name" class="post post-column current-item">自動運転トラックは「実験」から「仕組みづくり」へ移りつつある</span><meta property="position" content="3"></span>
+			</div>
+		</div>
+
+		<div class="c-archive-page define_wrap">
+			<div class="c-archive-page__inner define_inner">
+
+				<div class="c-archive-page__inner-main">
+					<section class="c-single">
+						<h1 class="c-single__ttl">自動運転トラックは「実験」から「仕組みづくり」へ移りつつある。<br>2026年の日本の動きを、門外漢なりに整理する</h1>
+						<div class="c-single__meta">
+							<p class="date Lato">2026.05.18</p>
+							<p class="cate"><a href="#" class="ov dark-blue">物流・輸送</a></p>
+							<p style="margin-left: 15px; color: #d32f2f; font-weight: bold; background: #ffebea; padding: 2px 10px; border-radius: 4px; border: 1px solid #d32f2f;">推定文字数: 約2,600文字</p>
+						</div>
+
+<div class="c-single__entry entry_content clearfix">
+
+<div style="background-color: #f8f9fa; border: 2px dashed #adb5bd; padding: 60px 20px; text-align: center; margin: 30px 0; border-radius: 8px;">
+    <span style="font-size: 1.2em; font-weight: bold; color: #495057;">[画像挿入予定地: アイキャッチ画像]</span><br>
+    <span style="color: #6c757d; margin-top: 10px; display: inline-block;">内容案：夜明けの新東名高速道路を走る大型トラックの後方視点。運転席の有無を強調しすぎず、幹線輸送と遠隔監視を連想させる構図。</span>
+</div>
+
+<h2 class="wp-block-heading">はじめに──「2024年問題」の先にあるもの</h2>
+
+<p>2024年4月から、トラックドライバーにも時間外労働の年960時間上限が適用されました。いわゆる「物流の2024年問題」です。</p>
+
+<p>この制度変更だけで物流が一気に止まった、という単純な話ではなさそうです。一方で、道路貨物運送業の倒産は高水準で推移しており、人手不足や燃料価格の上昇が経営を圧迫していることは各種調査でも示されています。さらに、NX総合研究所の試算では、具体的な対策を取らない場合、2030年度には輸送能力の34.1%（9.4億トン相当）が不足する可能性があるとされています。</p>
+
+<p>こうした背景を考えると、自動運転トラックに期待が集まるのは自然です。ただ、調べてみると「もうすぐ無人トラックが全国を走り回る」という話ではありません。むしろ今の焦点は、車両技術そのものに加えて、どこで走らせ、どこで人に引き継ぎ、誰が監視し、どのようなルールで運用するかという「仕組みづくり」に移ってきているように見えます。</p>
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+<h2 class="wp-block-heading">2025〜2026年の主な動き</h2>
+
+<div style="background-color: #f8f9fa; border: 2px dashed #adb5bd; padding: 60px 20px; text-align: center; margin: 30px 0; border-radius: 8px;">
+    <span style="font-size: 1.2em; font-weight: bold; color: #495057;">[画像挿入予定地: セクション画像]</span><br>
+    <span style="color: #6c757d; margin-top: 10px; display: inline-block;">内容案：日本地図に新東名・東名・名神を色付けし、実証区間と幹線輸送のイメージを示した図。</span>
+</div>
+
+<h3 class="wp-block-heading">国プロの総仕上げ：新東名で4メーカーが揃って走る</h3>
+
+<p>経済産業省・国土交通省が進めてきた「RoAD to the L4（自動運転レベル4等先進モビリティサービス研究開発・社会実装プロジェクト）」のテーマ3では、高速道路における自動運転トラックの実用化に向けた検討が行われてきました。</p>
+
+<p>2025年度の成果報告では、いすゞ・日野・三菱ふそう・UDトラックスの大型車メーカー4社が参画し、新御殿場IC〜岡崎SAの往復約420km/日を使った総合走行実証が報告されています。期間は2025年10月と12月。自動運転サービス支援道を含む駿河湾沼津SA〜浜松SA区間では、L2+（ハンズオフおよび自動車線変更機能を含む）車両による走行が検証されました。</p>
+
+<p>興味深いのは、単に「走れたか」だけを見ていない点です。RoAD to the L4の公開資料では、技術的成立性を一定程度確認した一方で、工事区間、規制速度と実勢速度の差、SA/PA周辺の駐車車両、一般車との協調など、車両システムだけでは解きにくい課題も挙げられています。</p>
+
+<h3 class="wp-block-heading">実荷物・500km：三菱ふそう × ヤマト運輸 × ティアフォーの実証</h3>
+
+<p>2026年2月には、三菱ふそうトラック・バス、ヤマト運輸、ティアフォーが、運転自動化レベル2+技術を搭載したセミトレーラーで幹線輸送の走行実証を実施しています。</p>
+
+<p>区間は羽田クロノゲートベース（東京都大田区）から関西ゲートウェイベース（大阪府茨木市）までの約500km。2往復・4運行で、ヤマト運輸が実際に輸送する荷物を積載しています。レベル2+での実証区間は、新東名高速道路の駿河湾沼津SA〜浜松SA間の約100kmとされています。</p>
+
+<p>ここでのポイントは、「デモ走行」ではなく、実際の荷物と実際の運行に近い条件で検証していることです。車両性能や安全性に加えて、走行時間、手動介入の傾向、遠隔監視、運行前点検の一部自動化など、物流の現場に入れるための周辺業務も確認されています。</p>
+
+<h3 class="wp-block-heading">ARCHION誕生：日野 × 三菱ふそうが経営統合</h3>
+
+<p>2026年4月1日、日野自動車と三菱ふそうトラック・バスの経営統合により、持株会社「ARCHION（アーチオン）」が東証プライム市場に上場しました。ダイムラートラックとトヨタ自動車がそれぞれ持分比率25%を保有する方針であることも公表されています。</p>
+
+<p>両ブランドや販売網をどう維持し、開発・調達・生産をどこまで共通化していくのかは、今後の実務上の話です。ただ、公式発表ではゼロエミッション技術や自動運転などのCASE領域で協業を進める方針が示されています。</p>
+
+<h3 class="wp-block-heading">「1人で複数台」の発想：後続車無人隊列走行</h3>
+
+<p>単独の車両が完全に自律走行するのとは別に、有人の先頭トラックに無人のトラックを通信で連結し、複数台をひとかたまりとして走らせる——そういうアプローチがあります。「後続車無人隊列走行」と呼ばれる方式です。</p>
+
+<p>日本ではすでに2021年2月、経済産業省・国土交通省のプロジェクトとして新東名高速道路の遠州森町PA〜浜松SA間（約15km）で、3台の大型トラックが時速80km・車間距離約9mの車群を組んだ走行に成功しています。先頭1台に人間のドライバーが乗り、2・3台目はドライバーなしで追走する構成でした。</p>
+
+<p>この方式が興味深いのは、完全自律走行が実現するより前の段階で「ドライバー1人で複数台を動かす」という効果を出せる点です。ドライバー不足への対応という観点では、現実的な選択肢のひとつになりそうです。</p>
+
+<p>一方で課題もあります。割り込み車両への対応、料金所や分岐のような複雑な場面での隊列維持、先頭車の急停車・急操舵への後続の追従精度。さらに、隊列が崩れた場合の対処や責任の所在といった運用・法制面の整理も必要です。現状は高速道路の特定区間・限定条件での技術実証の段階であり、汎用的な実用化にはまだ距離があります。</p>
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+<h2 class="wp-block-heading">技術より先に「運行設計」が問われている</h2>
+
+<div style="background-color: #f8f9fa; border: 2px dashed #adb5bd; padding: 60px 20px; text-align: center; margin: 30px 0; border-radius: 8px;">
+    <span style="font-size: 1.2em; font-weight: bold; color: #495057;">[画像挿入予定地: セクション画像]</span><br>
+    <span style="color: #6c757d; margin-top: 10px; display: inline-block;">内容案：荷主・物流事業者・インフラ管理者など複数のステークホルダーが連携するエコシステムのイメージ図。</span>
+</div>
+
+<h3 class="wp-block-heading">エコシステムの問題</h3>
+
+<p>自動運転トラックは、技術単体では成立しにくい仕組みです。</p>
+
+<p>荷主、物流事業者、倉庫事業者、高速道路会社、車両メーカー、システム開発会社、行政がそれぞれ関わります。荷主がいつ荷を用意するか、どの拠点でどの車両に乗せ替えるか、自動運転区間の前後で人員をどう配置するか。こうした運行全体の設計を誰が担い、どこまで標準化するかが、普及スピードを左右しそうです。</p>
+
+<h3 class="wp-block-heading">コストの壁はまだ読み切れない</h3>
+
+<p>自動運転トラックが普及すれば、長距離幹線輸送の人手不足を和らげる可能性があります。一方で、初期段階では車両、センサー、ソフトウェア、遠隔監視、保守、拠点整備などのコストが重くなりやすいはずです。</p>
+
+<p>「技術的には走れる」ことと「事業として回る」ことの間には、まだ距離があります。</p>
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+<h2 class="wp-block-heading">今、何が検証されているのか</h2>
+
+<p>現在の実証段階で確認されていることを、ざっくり整理すると次の3点です。</p>
+
+<p><strong>① 走行の安全性</strong>：センサー、制御、地図、道路側情報を組み合わせて、決められた高速道路区間を安定して走れるか。</p>
+
+<p><strong>② 実運用との整合</strong>：実際の荷物、実際のダイヤ、点検、遠隔監視、手動介入などを含めて、物流業務の中に入れられるか。</p>
+
+<p><strong>③ 標準化の可能性</strong>：特定のメーカーや荷主だけでなく、複数のプレイヤーが使える運行モデル、手順、インフラ条件を作れるか。</p>
+
+<p>2027〜2030年ごろの本格展開に向け、今の実証はその前提条件を一つずつ確認している段階です。</p>
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+<h2 class="wp-block-heading">振動試験の目線で見ると</h2>
+
+<p>自動運転トラックが社会実装に近づくほど、センサー、カメラ、LiDAR、レーダー、制御ECU、通信機器、遠隔監視に関わる車載機器には、長時間・長距離の連続稼働が求められます。高速道路を安定して走るだけでなく、雨、温度変化、振動、衝撃、汚れ、保守作業後の再現性なども問題になります。</p>
+
+<p>特に大型トラックやトレーラーでは、乗用車とは違う振動環境や取り付け条件がありそうです。センサーが少しずれる、コネクタが緩む、筐体の固定部が疲労する。そうした地味な問題が、自動運転の信頼性に効いてくる可能性があります。</p>
+
+<p>自動運転のアルゴリズムを語ることはできませんが、「実際に長く走らせたとき、機器が同じ性能を保てるか」という評価は、試験屋として関われる領域です。自動運転トラックの社会実装は、ソフトウェアだけでなく、こうした足元の信頼性評価にも支えられていくのだと思います。</p>
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+<h2 class="wp-block-heading">まとめ</h2>
+<figure class="wp-block-table is-style-regular">
+<table>
+<thead>
+<tr>
+<th><strong>ポイント</strong></th>
+<th><strong>内容</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>背景</td>
+<td>2024年問題をきっかけに、ドライバー不足や運送事業者の経営課題が改めて注目されている</td>
+</tr>
+<tr>
+<td>直近の動き</td>
+<td>RoAD to the L4の新東名実証、三菱ふそう・ヤマト運輸・ティアフォーの実荷物実証など、実運用に近い検証が進んでいる</td>
+</tr>
+<tr>
+<td>後続車無人隊列走行</td>
+<td>2021年に新東名で3台編成による後続無人走行を実現済み。「1人で複数台」という別の自動化アプローチとして注目</td>
+</tr>
+<tr>
+<td>ARCHION</td>
+<td>日野・三菱ふそうの統合会社が2026年4月に上場。自動運転などCASE領域での協業方針が示されている</td>
+</tr>
+<tr>
+<td>社会実装の壁</td>
+<td>車両技術だけでなく、中継拠点、遠隔監視、点検、ルール、コストを含む運行設計が課題になる</td>
+</tr>
+<tr>
+<td>展望</td>
+<td>2026年時点では本格普及前の段階。2027〜2030年ごろに向け、標準化と事業性の確認が進むと見られる</td>
+</tr>
+</tbody>
+</table>
+</figure>
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+<h3 class="wp-block-heading">参考情報</h3>
+<ul class="ref-list">
+<li><a href="https://www.road-to-the-l4.go.jp/activity/theme03/" target="_blank">RoAD to the L4「テーマ3 高速道路における高性能トラックの実用化に向けた取り組み」</a></li>
+<li><a href="https://www.road-to-the-l4.go.jp/publication/pdf/02-4_theme03_20260305.pdf" target="_blank">RoAD to the L4 2025年度成果報告会資料「テーマ3」</a></li>
+<li><a href="https://en.prnasia.com/releases/global/tier-iv-tests-level-2-semi-trailer-truck-for-long-haul-autonomous-logistics-with-yamato-transport-and-mitsubishi-fuso-524451.shtml" target="_blank">TIER IV発表「Level 2+ semi-trailer truck for long-haul autonomous logistics」</a></li>
+<li><a href="https://assets.mitsubishi-fuso.com/fusoassets/2026/03/20260401_press_release_JP_archion-listed-on-tokyo-stock-exchange-prime-market.pdf" target="_blank">ARCHION、日野自動車、三菱ふそうトラック・バス「ARCHION株式会社が東証プライム市場に上場」</a></li>
+<li><a href="https://meti.go.jp/press/2020/03/20210305003/20210305003.html" target="_blank">経済産業省「高速道路におけるトラックの後続車無人隊列走行技術を実現」</a></li>
+<li><a href="https://www.mlit.go.jp/seisakutokatsu/freight/seisakutokatsu_freight_tk1_000271.html" target="_blank">国土交通省「自動運転トラックによる幹線輸送の社会実装に向けた実証事業」</a></li>
+</ul>
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+<h3 class="wp-block-heading">お問い合わせ</h3>
+<p>自動運転トラックが実際の幹線輸送に近づくほど、車両・システム・センサーへの評価要件も変化していくと考えられます。長時間・長距離の連続稼働を前提にした信頼性評価や、温度・振動・湿度などの環境条件下での耐久試験についてのご相談はお気軽にどうぞ。</p>
+<p><em>本コラムで取り上げた内容に関連する試験（耐久性評価・環境試験・振動試験など）については、エボルテックの<a href="https://evoltech-shiken.com/environmental_tests/">環境試験一覧</a>もあわせてご覧ください。</em></p>
+</div>
+
+					<div class="c-single__cv">
+						<h2 class="c-single__cv-ttl"><span class="marker-yellow">振動試験</span>に関する<span class="marker-yellow">お悩み</span>は<br>
+							エボルテックまでお気軽に<br class="sp">ご相談・お問い合わせください。</h2>
+						<div class="c-single__cv-btn">
+							<div class="simulation">
+								<a href="https://evoltech-shiken.com/simulation/" class="ov"><span>見積シミュレーション</span></a>
+							</div>
+							<div class="contact">
+								<a href="https://evoltech-shiken.com/contacts/" class="ov"><span>見積・お問い合わせ</span></a>
+							</div>
+						</div>
+					</div>
+
+					<section class="c-single__latest">
+						<h2 class="c-single__latest-ttl">最新記事</h2>
+						<div class="c-column-archive">
+							<div class="c-column-archive__list">
+								<section class="c-column-archive__list-sec">
+									<a href="./preview_2605-01.html" class="ov">
+										<div class="meta"><p class="date Lato">2026.05.18</p></div>
+										<h3 class="ttl">AI工場の話題は「省人化」から「品質の再現性」へ向かっているように見える。製造現場のAIをめぐる動向と、試験・評価への視点</h3>
+									</a>
+								</section>
+								<section class="c-column-archive__list-sec">
+									<a href="./preview_2604-02.html" class="ov">
+										<div class="meta"><p class="date Lato">2026.03.17</p></div>
+										<h3 class="ttl">EV電池は増えるが、供給は偏る。LFP拡大が揺さぶる「電池試験の前提条件」という論点</h3>
+									</a>
+								</section>
+								<section class="c-column-archive__list-sec">
+									<a href="./preview_2604-01.html" class="ov">
+										<div class="meta"><p class="date Lato">2026.03.17</p></div>
+										<h3 class="ttl">レアメタルの確保は「購買」ではなく「品質保証」の問題になる。代替材・代替サプライヤーへの切り替えが問う、評価の論点</h3>
+									</a>
+								</section>
+							</div>
+						</div>
+					</section>
+
+				</section>
+			</div>
+
+			<aside class="c-archive-page__inner-side">
+	<section class="c-widget">
+		<h3 class="c-widget__ttl">カテゴリから選ぶ</h3>
+		<div class="c-widget__body">
+			<ul class="c-widget-list">
+				<li><a href="https://evoltech-shiken.com/column/" class="ov">すべて</a></li>
+				<li><a href="https://evoltech-shiken.com/column_category/%e3%81%9d%e3%81%ae%e4%bb%96%e8%a9%a6%e9%a8%93/" class="ov">その他試験</a></li>
+				<li><a href="https://evoltech-shiken.com/column_category/dust_test/" class="ov">塵埃試験</a></li>
+				<li><a href="https://evoltech-shiken.com/column_category/vibration_test/" class="ov">振動試験</a></li>
+				<li><a href="https://evoltech-shiken.com/column_category/temperature_test/" class="ov">温度試験</a></li>
+			</ul>
+		</div>
+	</section>
+	<section class="c-widget">
+		<h3 class="c-widget__ttl">アーカイブ</h3>
+		<div class="c-widget__select">
+			<select name="year" onChange="document.location.href=this.options[this.selectedIndex].value;">
+				<option value="">選択してください</option>
+				<option value='https://evoltech-shiken.com/column/date/2026/'> 2026年 </option>
+				<option value='https://evoltech-shiken.com/column/date/2025/'> 2025年 </option>
+			</select>
+		</div>
+	</section>
+</aside>
+		</div>
+	</div>
+
+	</main>
+
+	<div class="l-pageTop js-pageTop">
+		<a href="#" class="ov"><img src="https://evoltech-shiken.com/wp-content/themes/evoltech/images/common/pagetop.png" alt="page top"></a>
+	</div>
+
+	<div class="l-fixed-contents sp">
+		<div class="tel">
+			<a href="tel:053-523-7300">
+				<span class="txt01">営業時間╱9時～18時（土日祝除く）</span>
+				<span class="icon Roboto">053-523-7300</span>
+			</a>
+		</div>
+		<div class="contact">
+			<a href="https://evoltech-shiken.com/contacts/">
+				<span class="txt01">24時間受付中</span>
+				<span class="icon">見積・お問い合わせ</span>
+			</a>
+		</div>
+	</div>
+
+	<footer class="l-footer">
+		<div class="l-footer__top define_wrap">
+			<div class="l-footer__top-inner define_inner">
+				<p class="l-footer__top-inner-logo"><a href="https://evoltech-shiken.com/"><img src="https://evoltech-shiken.com/wp-content/themes/evoltech/images/common/logo01.png" alt="エボルテック"></a></p>
+				<div class="l-footer__top-inner-right">
+					<div class="tel">
+						<p class="tel__balloon">無料相談・無料お見積OK<br>お気軽にご連絡ください！</p>
+						<div class="tel__box">
+							<p class="tel__box-num Roboto"><a href="tel:053-523-7300">053-523-7300</a></p>
+							<p class="tel__box-time">営業時間╱9時～18時（土日祝除く）</p>
+						</div>
+					</div>
+					<div class="contact js-head-contacts">
+						<a href="https://evoltech-shiken.com/contacts/" class="ov parent"><span>見積・お問い合わせ</span></a>
+						<div class="contact__child">
+							<ul class="contact__child-list">
+								<li><a href="https://evoltech-shiken.com/contacts/vibration_test/" class="ov">振動試験 各種お見積のご依頼</a></li>
+								<li><a href="https://evoltech-shiken.com/contacts/dust_resistance_test/" class="ov">塵埃試験・その他試験 お見積のご依頼</a></li>
+								<li><a href="https://evoltech-shiken.com/contacts/contact/" class="ov">一般お問い合わせ</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="l-footer__navi define_wrap">
+			<div class="l-footer__navi-inner define_inner">
+				<nav class="l-footer__navi-inner-content">
+					<ul class="navi">
+						<li><a href="https://evoltech-shiken.com/" class="ov">ホーム</a></li>
+						<li><a href="https://evoltech-shiken.com/vibration_test/" class="ov">振動試験とは</a></li>
+						<li><a href="https://evoltech-shiken.com/dimensions/" class="ov">装置・治具取付け部寸法</a></li>
+						<li><a href="https://evoltech-shiken.com/environmental_tests/" class="ov">環境試験一覧</a></li>
+						<li><a href="https://evoltech-shiken.com/#schedule" class="ov">空き状況</a></li>
+						<li><a href="https://evoltech-shiken.com/column/" class="ov">コラム</a></li>
+						<li><a href="https://evoltech-shiken.com/news/" class="ov">お知らせ</a></li>
+						<li><a href="https://evoltech-shiken.com/company/" class="ov">企業情報</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<div class="l-footer__bottom">
+			<div class="l-footer__bottom-inner">
+				<p class="l-footer__bottom-inner-copy">© 2024 Evoltech Co.,Ltd | <a href="https://carearc.co.jp/" style="color: inherit; text-decoration: none;">Produced by CAREARC, Inc.</a></p>
+			</div>
+		</div>
+	</footer>
+</div>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js?ver=1.12.4" id="jquery-js"></script>
+<script type="text/javascript" src="https://evoltech-shiken.com/wp-content/themes/evoltech/js/common.js?ver1.0959" id="theme-js"></script>
+</body>
+</html>
