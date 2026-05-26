@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="ja" prefix="og: https://ogp.me/ns#" class="no-js">
 <head>
+<script>var _localBase = window.location.href.replace(/\/[^\/]*$/, '/');</script>
 <base href="https://evoltech-shiken.com/">
 
 	<meta charset="UTF-8">
@@ -254,10 +255,9 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
 						
 <div class="c-single__entry entry_content clearfix">
 
-<div style="background-color: #f8f9fa; border: 2px dashed #adb5bd; padding: 60px 20px; text-align: center; margin: 30px 0; border-radius: 8px;">
-    <span style="font-size: 1.2em; font-weight: bold; color: #495057;">[画像挿入予定地: アイキャッチ画像]</span><br>
-    <span style="color: #6c757d; margin-top: 10px; display: inline-block;">内容案：車両に搭載されたLiDARセンサーのイメージ図（微小クラック、砂塵、熱波、振動波などの劣化要因を表現）</span>
-</div>
+<figure class="wp-block-image aligncenter">
+    <img data-local="images/2603-01/eye-catch.png" src="" alt="車両に搭載されたLiDARセンサー" style="max-width: 100%; height: auto;">
+</figure>
 
 <h2 class="wp-block-heading">はじめに──「前走車を見失う」原因は、ソフトではないかもしれない</h2>
 <p>「さっきまで追従していた前走車を、システムが突然見失った」。</p>
@@ -283,10 +283,9 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
 
 <h2 class="wp-block-heading">車という「動く器」がセンサーに与えるダメージ</h2>
 
-<div style="background-color: #f8f9fa; border: 2px dashed #adb5bd; padding: 60px 20px; text-align: center; margin: 30px 0; border-radius: 8px;">
-    <span style="font-size: 1.2em; font-weight: bold; color: #495057;">[画像挿入予定地: セクション画像]</span><br>
-    <span style="color: #6c757d; margin-top: 10px; display: inline-block;">内容案：車載センサーへの3つのダメージメカニズム（振動が基板を揺らす、砂塵がレンズを削る、熱が半導体にストレスをかける）のインフォグラフィック</span>
-</div>
+<figure class="wp-block-image aligncenter">
+    <img data-local="images/2603-01/section-01.png" src="" alt="車載センサーへの3つのダメージメカニズム" style="max-width: 100%; height: auto;">
+</figure>
 
 <p>車両特有の環境が、搭載されたセンサーにどのようなダメージを蓄積するのか。技術文献や試験関連の報告からは、主に3つのメカニズムが論じられています。</p>
 
@@ -627,5 +626,11 @@ var wpcf7cf_global_settings = {"ajaxurl":"https://evoltech-shiken.com/wp-admin/a
 <script type="text/javascript" src="https://ajaxzip3.github.io/ajaxzip3.js"></script>
 <script type="text/javascript" src="https://evoltech-shiken.com/wp-content/themes/evoltech/js/common.js?2"></script>
 
+
+<script>
+document.querySelectorAll('img[data-local]').forEach(function(img) {
+    img.src = _localBase + img.getAttribute('data-local');
+});
+</script>
 </body>
 </html>
