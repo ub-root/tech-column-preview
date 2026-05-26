@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="ja" prefix="og: https://ogp.me/ns#" class="no-js">
 <head>
+<script>var _localBase = window.location.href.replace(/\/[^\/]*$/, '/');</script>
 <base href="https://evoltech-shiken.com/">
 
 	<meta charset="UTF-8">
@@ -216,10 +217,9 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
 
 <div class="c-single__entry entry_content clearfix">
 
-<div style="background-color: #f8f9fa; border: 2px dashed #adb5bd; padding: 60px 20px; text-align: center; margin: 30px 0; border-radius: 8px;">
-    <span style="font-size: 1.2em; font-weight: bold; color: #495057;">[画像挿入予定地: アイキャッチ画像]</span><br>
-    <span style="color: #6c757d; margin-top: 10px; display: inline-block;">内容案：夜明けの新東名高速道路を走る大型トラックの後方視点。運転席の有無を強調しすぎず、幹線輸送と遠隔監視を連想させる構図。</span>
-</div>
+<figure class="wp-block-image aligncenter">
+    <img data-local="images/2605-02/eye-catch.png" src="" alt="新東名高速道路を走る大型トラック" style="max-width: 100%; height: auto;">
+</figure>
 
 <h2 class="wp-block-heading">はじめに──「2024年問題」の先にあるもの</h2>
 
@@ -233,10 +233,9 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
 
 <h2 class="wp-block-heading">2025〜2026年の主な動き</h2>
 
-<div style="background-color: #f8f9fa; border: 2px dashed #adb5bd; padding: 60px 20px; text-align: center; margin: 30px 0; border-radius: 8px;">
-    <span style="font-size: 1.2em; font-weight: bold; color: #495057;">[画像挿入予定地: セクション画像]</span><br>
-    <span style="color: #6c757d; margin-top: 10px; display: inline-block;">内容案：日本地図に新東名・東名・名神を色付けし、実証区間と幹線輸送のイメージを示した図。</span>
-</div>
+<figure class="wp-block-image aligncenter">
+    <img data-local="images/2605-02/section-01.png" src="" alt="新東名・東名・名神の実証区間と幹線輸送イメージ" style="max-width: 100%; height: auto;">
+</figure>
 
 <h3 class="wp-block-heading">国プロの総仕上げ：新東名で4メーカーが揃って走る</h3>
 
@@ -274,10 +273,9 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
 
 <h2 class="wp-block-heading">技術より先に「運行設計」が問われている</h2>
 
-<div style="background-color: #f8f9fa; border: 2px dashed #adb5bd; padding: 60px 20px; text-align: center; margin: 30px 0; border-radius: 8px;">
-    <span style="font-size: 1.2em; font-weight: bold; color: #495057;">[画像挿入予定地: セクション画像]</span><br>
-    <span style="color: #6c757d; margin-top: 10px; display: inline-block;">内容案：荷主・物流事業者・インフラ管理者など複数のステークホルダーが連携するエコシステムのイメージ図。</span>
-</div>
+<figure class="wp-block-image aligncenter">
+    <img data-local="images/2605-02/section-02.png" src="" alt="荷主・物流事業者・インフラ管理者が連携するエコシステム" style="max-width: 100%; height: auto;">
+</figure>
 
 <h3 class="wp-block-heading">エコシステムの問題</h3>
 
@@ -515,5 +513,10 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js?ver=1.12.4" id="jquery-js"></script>
 <script type="text/javascript" src="https://evoltech-shiken.com/wp-content/themes/evoltech/js/common.js?ver1.0959" id="theme-js"></script>
+<script>
+document.querySelectorAll('img[data-local]').forEach(function(img) {
+    img.src = _localBase + img.getAttribute('data-local');
+});
+</script>
 </body>
 </html>

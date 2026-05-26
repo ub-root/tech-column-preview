@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="ja" prefix="og: https://ogp.me/ns#" class="no-js">
 <head>
+<script>var _localBase = window.location.href.replace(/\/[^\/]*$/, '/');</script>
 <base href="https://evoltech-shiken.com/">
 
 	<meta charset="UTF-8">
@@ -220,10 +221,9 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
 
 <div class="c-single__entry entry_content clearfix">
 
-<div style="background-color: #f8f9fa; border: 2px dashed #adb5bd; padding: 60px 20px; text-align: center; margin: 30px 0; border-radius: 8px;">
-    <span style="font-size: 1.2em; font-weight: bold; color: #495057;">[画像挿入予定地: アイキャッチ画像]</span><br>
-    <span style="color: #6c757d; margin-top: 10px; display: inline-block;">内容案：工場の製造ラインにカメラや各種センサーが設置され、モニター画面にAI分析結果が表示されているイメージ</span>
-</div>
+<figure class="wp-block-image aligncenter">
+    <img data-local="images/2605-01/eye-catch.png" src="" alt="工場の製造ラインとAI分析" style="max-width: 100%; height: auto;">
+</figure>
 
 <h2 class="wp-block-heading">はじめに──「AI＝省人化」という理解は、まだ全体像を捉えていないかもしれない</h2>
 <p>製造現場へのAI導入といえば、多くの人が「人手を減らす技術」として理解します。</p>
@@ -236,10 +236,9 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
 
 <h2 class="wp-block-heading">「検出から再現へ」──AIをめぐる関心の変化</h2>
 
-<div style="background-color: #f8f9fa; border: 2px dashed #adb5bd; padding: 60px 20px; text-align: center; margin: 30px 0; border-radius: 8px;">
-    <span style="font-size: 1.2em; font-weight: bold; color: #495057;">[画像挿入予定地: セクション画像]</span><br>
-    <span style="color: #6c757d; margin-top: 10px; display: inline-block;">内容案：「検出AIの時代」→「再現性AIの時代」への移行を示す図（従来の検査フロー vs データ蓄積→学習→フィードバックのループ）</span>
-</div>
+<figure class="wp-block-image aligncenter">
+    <img data-local="images/2605-01/section-01.png" src="" alt="検出AIから再現性AIへの移行イメージ" style="max-width: 100%; height: auto;">
+</figure>
 
 <h3 class="wp-block-heading">従来の品質管理──「出てしまったものを止める」発想</h3>
 <p>従来の品質管理は、基本的に「後ろで止める」発想を基本としてきました。製造されたものを検査し、基準を外れたものを弾く。これは必要な工程ですが、構造的な問題があれば「見つけては止める」の繰り返しになりがちです。</p>
@@ -453,5 +452,10 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js?ver=1.12.4" id="jquery-js"></script>
 <script type="text/javascript" src="https://evoltech-shiken.com/wp-content/themes/evoltech/js/common.js?ver1.0959" id="theme-js"></script>
+<script>
+document.querySelectorAll('img[data-local]').forEach(function(img) {
+    img.src = _localBase + img.getAttribute('data-local');
+});
+</script>
 </body>
 </html>

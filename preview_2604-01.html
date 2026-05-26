@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="ja" prefix="og: https://ogp.me/ns#" class="no-js">
 <head>
+<script>var _localBase = window.location.href.replace(/\/[^\/]*$/, '/');</script>
 <base href="https://evoltech-shiken.com/">
 
 	<meta charset="UTF-8">
@@ -233,10 +234,9 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
 
 <div class="c-single__entry entry_content clearfix">
 
-<div style="background-color: #f8f9fa; border: 2px dashed #adb5bd; padding: 60px 20px; text-align: center; margin: 30px 0; border-radius: 8px;">
-    <span style="font-size: 1.2em; font-weight: bold; color: #495057;">[画像挿入予定地: アイキャッチ画像]</span><br>
-    <span style="color: #6c757d; margin-top: 10px; display: inline-block;">内容案：コバルトやリチウムなどのレアメタル鉱石と、電子部品・基板が並ぶ俯瞰イメージ（調達と品質が交差するイメージ）</span>
-</div>
+<figure class="wp-block-image aligncenter">
+    <img data-local="images/2604-01/eye-catch.png" src="" alt="レアメタル鉱石と電子部品・基板" style="max-width: 100%; height: auto;">
+</figure>
 
 <h2 class="wp-block-heading">はじめに──「調達の話」が「評価の話」になる日</h2>
 <p>「材料が確保できるかどうかは購買部門の問題であって、設計・品質の自分たちには直接関係ない」──そう考えている開発現場は少なくないかもしれません。</p>
@@ -248,10 +248,9 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
 
 <h2 class="wp-block-heading">サプライヤーが変わると、なにが変わるのか</h2>
 
-<div style="background-color: #f8f9fa; border: 2px dashed #adb5bd; padding: 60px 20px; text-align: center; margin: 30px 0; border-radius: 8px;">
-    <span style="font-size: 1.2em; font-weight: bold; color: #495057;">[画像挿入予定地: セクション画像]</span><br>
-    <span style="color: #6c757d; margin-top: 10px; display: inline-block;">内容案：同じ素材名でも産地・精製工程によって特性が異なることを示す比較図（純度・結晶構造・不純物プロファイルのイメージ）</span>
-</div>
+<figure class="wp-block-image aligncenter">
+    <img data-local="images/2604-01/section-01.png" src="" alt="同じ素材名でも産地・精製工程によって特性が異なることを示す比較図" style="max-width: 100%; height: auto;">
+</figure>
 
 <p>「同じ名称の材料なら、交換しても問題ないはずだ」。こう考えたくなる気持ちは自然ですが、材料の世界ではそう単純ではないとされています。</p>
 
@@ -475,5 +474,10 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js?ver=1.12.4" id="jquery-js"></script>
 <script type="text/javascript" src="https://evoltech-shiken.com/wp-content/themes/evoltech/js/common.js?ver1.0959" id="theme-js"></script>
+<script>
+document.querySelectorAll('img[data-local]').forEach(function(img) {
+    img.src = _localBase + img.getAttribute('data-local');
+});
+</script>
 </body>
 </html>
