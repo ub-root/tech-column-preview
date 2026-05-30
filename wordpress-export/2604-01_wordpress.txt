@@ -1,0 +1,174 @@
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="__UPLOAD_BASE_URL__/images/2604-01/eye-catch.png" alt="レアメタル鉱石と電子部品・基板" class="wp-image-replace-after-upload"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">はじめに──「調達の話」が「評価の話」になる日</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>「材料が確保できるかどうかは購買部門の問題であって、設計・品質の自分たちには直接関係ない」──そう考えている開発現場は少なくないかもしれません。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>しかし、ここ数年の調達環境の変化は、その認識を問い直す動きと重なってきています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>EUでは2024年に<strong>重要原材料法（CRMA: Critical Raw Materials Act）</strong>が成立・発効しました。コバルト・ニッケル・リチウムといった戦略素材をめぐる供給リスクへの対応を促す枠組みとして注目されており、原材料のサプライチェーン管理の重要性が改めて議論されるきっかけにもなっています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>ただ、問題は「材料が手に入るかどうか」だけではないようです。代替材・代替サプライヤーに切り替えたとき、<strong>既存の製品は本当に同じように機能するか</strong>──この問いは、品質保証や試験の現場では、より身近な課題として意識されることがあります。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">サプライヤーが変わると、なにが変わるのか</h2>
+<!-- /wp:heading -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="__UPLOAD_BASE_URL__/images/2604-01/section-01.png" alt="同じ素材名でも産地・精製工程によって特性が異なることを示す比較図" class="wp-image-replace-after-upload"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>「同じ名称の材料なら、交換しても問題ないはずだ」。こう考えたくなる気持ちは自然ですが、材料の世界ではそう単純ではないとされています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">同じ素材名が、同じ特性を意味しない場合がある</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>たとえばコバルトやニッケルといった素材は、産地・精製プロセス・不純物プロファイルによって、電気的特性や機械的特性が微妙に異なる場合があると言われています。バッテリーの電極材料であれば、充放電サイクルの繰り返しによる特性変化に差が出ることもあるとされています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>構造材料についても、異なるサプライヤーから調達された同一グレードの合金が、温度サイクル試験や振動試験で想定とは異なる挙動を示すケースがあると、材料評価の文脈では指摘されることがあります。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">「調達変更」は「評価の問い直し」を伴うことがある</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>製品認証や信頼性評価の観点では、主要な材料や部品のサプライヤー変更が、規格や適用条件によっては再評価を必要とする場合があります。航空宇宙・医療・自動車など機能安全が問われる分野では特にその傾向があるとされていますが、具体的な範囲は規格・認証体制によって異なります。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>購買が「代替品を確保した」と判断したとき、品質保証・信頼性試験の担当者には「それで本当に大丈夫か」を確認する役割が生じることがあります。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">「レジリエンス」は、評価データを持っていることから始まる</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>では、代替材への切り替えに備えるとき、何が手がかりになるでしょうか。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">現行材料の「特性ベースライン」を取る</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>サプライヤーを変えるとき、比較の起点となるのは現行材料の特性データです。温度・振動・湿度などの環境負荷に対してどのように変化するか、どの試験条件で何が起きるか──これを記録しておくことが、代替評価の参考になると考えられています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>逆に言えば、現行材料のデータがなければ、代替材を「同等」と判断する根拠を持ちにくくなります。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">「試験できる状態」でサプライヤーを考える</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>もう一点、関心が持たれているのが、調達候補を検討する段階で「評価できる供給量・ロットが確保できるか」という視点です。急な切り替えが必要になったとき、試験用のサンプルすら確保できなければ、品質の確認も進みません。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>サプライチェーンのレジリエンスを考えるとき、「複数の調達先を持つこと」だけでなく、<strong>切り替えが必要な場面で評価・確認を回せる体制があるか</strong>という点も、非常に重要なポイントです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">調達リスクが「品質の問い」を生む時代</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>CRMAのような原材料に関する政策整備が進む背景には、製品の品質・安全性への責任意識の高まりという文脈もあると見られています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<p style="background-color:#e6effc; padding:20px; border-radius:8px; font-size:1.05em; line-height:1.8;"><strong>「材料が来るかどうか」だけでなく、「切り替えた材料で同じ品質を証明できるか」という問いが、品質保証の現場でも意識されてきている。</strong></p>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>材料の代替可能性、そしてそれに伴う再評価の可能性は、試験・評価の担当者にとっても無縁ではないテーマでしょう。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">まとめ</h2>
+<!-- /wp:heading -->
+
+<!-- wp:table -->
+<figure class="wp-block-table is-style-regular">
+<table>
+<thead>
+<tr>
+<th><strong>ポイント</strong></th>
+<th><strong>内容</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>制度の背景</td>
+<td>EUのCRMA（2024年成立・発効）など、重要原材料の供給リスク管理への関心が高まっている</td>
+</tr>
+<tr>
+<td>材料変更の論点</td>
+<td>同じ素材名でも産地・精製工程の違いで特性が異なる場合があり、製品評価への影響が論点になりうる</td>
+</tr>
+<tr>
+<td>再評価の可能性</td>
+<td>サプライヤー変更が、規格や分野によっては再評価を要する場合があることは知っておきたい点</td>
+</tr>
+<tr>
+<td>備えの考え方</td>
+<td>切り替えが必要なときに評価・確認を回せる体制を持てるかが、レジリエンスの実質的な問いになりつつある</td>
+</tr>
+</tbody>
+</table>
+</figure>
+<!-- /wp:table -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">お問い合わせ</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>詳細な評価方針は製品・認証体制によって異なりますが、「現在使っている材料の特性を試験で確認したい」「代替材との比較評価の進め方について相談したい」といったテーマでお困りの際は、お気軽にご相談ください。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><em>本コラムで取り上げた内容に関連する試験（材料特性評価・環境試験・耐久試験など）については、エボルテックの<a href="https://evoltech-shiken.com/environmental_tests/">環境試験一覧</a>もあわせてご覧ください。</em></p>
+<!-- /wp:paragraph -->

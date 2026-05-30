@@ -1,0 +1,260 @@
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="__UPLOAD_BASE_URL__/images/2605-02/eye-catch.png" alt="新東名高速道路を走る大型トラック" class="wp-image-replace-after-upload"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">はじめに──「2024年問題」の先にあるもの</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>2024年4月から、トラックドライバーにも時間外労働の年960時間上限が適用されました。いわゆる「物流の2024年問題」です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>この制度変更だけで物流が一気に止まった、という単純な話ではなさそうです。一方で、道路貨物運送業の倒産は高水準で推移しており、人手不足や燃料価格の上昇が経営を圧迫していることは各種調査でも示されています。さらに、NX総合研究所の試算では、具体的な対策を取らない場合、2030年度には輸送能力の34.1%（9.4億トン相当）が不足する可能性があるとされています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>こうした背景を考えると、自動運転トラックに期待が集まるのは自然です。ただ、調べてみると「もうすぐ無人トラックが全国を走り回る」という話ではありません。むしろ今の焦点は、車両技術そのものに加えて、どこで走らせ、どこで人に引き継ぎ、誰が監視し、どのようなルールで運用するかという「仕組みづくり」に移ってきているように見えます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">2025〜2026年の主な動き</h2>
+<!-- /wp:heading -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="__UPLOAD_BASE_URL__/images/2605-02/section-01-1.png" alt="新東名・東名・名神の実証区間と幹線輸送イメージ" class="wp-image-replace-after-upload"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">国プロの総仕上げ：新東名で4メーカーが揃って走る</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>経済産業省・国土交通省が進めてきた「RoAD to the L4（自動運転レベル4等先進モビリティサービス研究開発・社会実装プロジェクト）」のテーマ3では、高速道路における自動運転トラックの実用化に向けた検討が行われてきました。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>2025年度の成果報告では、いすゞ・日野・三菱ふそう・UDトラックスの大型車メーカー4社が参画し、新御殿場IC〜岡崎SAの往復約420km/日を使った総合走行実証が報告されています。期間は2025年10月と12月。自動運転サービス支援道を含む駿河湾沼津SA〜浜松SA区間では、L2+（ハンズオフおよび自動車線変更機能を含む）車両による走行が検証されました。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>興味深いのは、単に「走れたか」だけを見ていない点です。RoAD to the L4の公開資料では、技術的成立性を一定程度確認した一方で、工事区間、規制速度と実勢速度の差、SA/PA周辺の駐車車両、一般車との協調など、車両システムだけでは解きにくい課題も挙げられています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">実荷物・500km：三菱ふそう × ヤマト運輸 × ティアフォーの実証</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>2026年2月には、三菱ふそうトラック・バス、ヤマト運輸、ティアフォーが、運転自動化レベル2+技術を搭載したセミトレーラーで幹線輸送の走行実証を実施しています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>区間は羽田クロノゲートベース（東京都大田区）から関西ゲートウェイベース（大阪府茨木市）までの約500km。2往復・4運行で、ヤマト運輸が実際に輸送する荷物を積載しています。レベル2+での実証区間は、新東名高速道路の駿河湾沼津SA〜浜松SA間の約100kmとされています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>ここでのポイントは、「デモ走行」ではなく、実際の荷物と実際の運行に近い条件で検証していることです。車両性能や安全性に加えて、走行時間、手動介入の傾向、遠隔監視、運行前点検の一部自動化など、物流の現場に入れるための周辺業務も確認されています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">ARCHION誕生：日野 × 三菱ふそうが経営統合</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>2026年4月1日、日野自動車と三菱ふそうトラック・バスの経営統合により、持株会社「ARCHION（アーチオン）」が東証プライム市場に上場しました。ダイムラートラックとトヨタ自動車がそれぞれ持分比率25%を保有する方針であることも公表されています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>両ブランドや販売網をどう維持し、開発・調達・生産をどこまで共通化していくのかは、今後の実務上の話です。ただ、公式発表ではゼロエミッション技術や自動運転などのCASE領域で協業を進める方針が示されています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">「1人で複数台」の発想：後続車無人隊列走行</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>単独の車両が完全に自律走行するのとは別に、有人の先頭トラックに無人のトラックを通信で連結し、複数台をひとかたまりとして走らせる——そういうアプローチがあります。「後続車無人隊列走行」と呼ばれる方式です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>日本ではすでに2021年2月、経済産業省・国土交通省のプロジェクトとして新東名高速道路の遠州森町PA〜浜松SA間（約15km）で、3台の大型トラックが時速80km・車間距離約9mの車群を組んだ走行に成功しています。先頭1台に人間のドライバーが乗り、2・3台目はドライバーなしで追走する構成でした。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>この方式が興味深いのは、完全自律走行が実現するより前の段階で「ドライバー1人で複数台を動かす」という効果を出せる点です。ドライバー不足への対応という観点では、現実的な選択肢のひとつになりそうです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>一方で課題もあります。割り込み車両への対応、料金所や分岐のような複雑な場面での隊列維持、先頭車の急停車・急操舵への後続の追従精度。さらに、隊列が崩れた場合の対処や責任の所在といった運用・法制面の整理も必要です。現状は高速道路の特定区間・限定条件での技術実証の段階であり、汎用的な実用化にはまだ距離があります。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">技術より先に「運行設計」が問われている</h2>
+<!-- /wp:heading -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="__UPLOAD_BASE_URL__/images/2605-02/section-02.png" alt="荷主・物流事業者・インフラ管理者が連携するエコシステム" class="wp-image-replace-after-upload"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">エコシステムの問題</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>自動運転トラックは、技術単体では成立しにくい仕組みです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>荷主、物流事業者、倉庫事業者、高速道路会社、車両メーカー、システム開発会社、行政がそれぞれ関わります。荷主がいつ荷を用意するか、どの拠点でどの車両に乗せ替えるか、自動運転区間の前後で人員をどう配置するか。こうした運行全体の設計を誰が担い、どこまで標準化するかが、普及スピードを左右しそうです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">コストの壁はまだ読み切れない</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>自動運転トラックが普及すれば、長距離幹線輸送の人手不足を和らげる可能性があります。一方で、初期段階では車両、センサー、ソフトウェア、遠隔監視、保守、拠点整備などのコストが重くなりやすいはずです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>「技術的には走れる」ことと「事業として回る」ことの間には、まだ距離があります。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">今、何が検証されているのか</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>現在の実証段階で確認されていることを、ざっくり整理すると次の3点です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>① 走行の安全性</strong>：センサー、制御、地図、道路側情報を組み合わせて、決められた高速道路区間を安定して走れるか。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>② 実運用との整合</strong>：実際の荷物、実際のダイヤ、点検、遠隔監視、手動介入などを含めて、物流業務の中に入れられるか。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>③ 標準化の可能性</strong>：特定のメーカーや荷主だけでなく、複数のプレイヤーが使える運行モデル、手順、インフラ条件を作れるか。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>2027〜2030年ごろの本格展開に向け、今の実証はその前提条件を一つずつ確認している段階です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">振動試験の目線で見ると</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>自動運転トラックが社会実装に近づくほど、センサー、カメラ、LiDAR、レーダー、制御ECU、通信機器、遠隔監視に関わる車載機器には、長時間・長距離の連続稼働が求められます。高速道路を安定して走るだけでなく、雨、温度変化、振動、衝撃、汚れ、保守作業後の再現性なども問題になります。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>特に大型トラックやトレーラーでは、乗用車とは違う振動環境や取り付け条件がありそうです。センサーが少しずれる、コネクタが緩む、筐体の固定部が疲労する。そうした地味な問題が、自動運転の信頼性に効いてくる可能性があります。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>自動運転のアルゴリズムを語ることはできませんが、「実際に長く走らせたとき、機器が同じ性能を保てるか」という評価は、試験屋として関われる領域です。自動運転トラックの社会実装は、ソフトウェアだけでなく、こうした足元の信頼性評価にも支えられていくのだと思います。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">まとめ</h2>
+<!-- /wp:heading -->
+
+<!-- wp:table -->
+<figure class="wp-block-table is-style-regular">
+<table>
+<thead>
+<tr>
+<th><strong>ポイント</strong></th>
+<th><strong>内容</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>背景</td>
+<td>2024年問題をきっかけに、ドライバー不足や運送事業者の経営課題が改めて注目されている</td>
+</tr>
+<tr>
+<td>直近の動き</td>
+<td>RoAD to the L4の新東名実証、三菱ふそう・ヤマト運輸・ティアフォーの実荷物実証など、実運用に近い検証が進んでいる</td>
+</tr>
+<tr>
+<td>後続車無人隊列走行</td>
+<td>2021年に新東名で3台編成による後続無人走行を実現済み。「1人で複数台」という別の自動化アプローチとして注目</td>
+</tr>
+<tr>
+<td>ARCHION</td>
+<td>日野・三菱ふそうの統合会社が2026年4月に上場。自動運転などCASE領域での協業方針が示されている</td>
+</tr>
+<tr>
+<td>社会実装の壁</td>
+<td>車両技術だけでなく、中継拠点、遠隔監視、点検、ルール、コストを含む運行設計が課題になる</td>
+</tr>
+<tr>
+<td>展望</td>
+<td>2026年時点では本格普及前の段階。2027〜2030年ごろに向け、標準化と事業性の確認が進むと見られる</td>
+</tr>
+</tbody>
+</table>
+</figure>
+<!-- /wp:table -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">参考情報</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul>
+<li><a href="https://www.road-to-the-l4.go.jp/activity/theme03/" target="_blank" rel="noopener">RoAD to the L4「テーマ3 高速道路における高性能トラックの実用化に向けた取り組み」</a></li>
+<li><a href="https://www.road-to-the-l4.go.jp/publication/pdf/02-4_theme03_20260305.pdf" target="_blank" rel="noopener">RoAD to the L4 2025年度成果報告会資料「テーマ3」</a></li>
+<li><a href="https://en.prnasia.com/releases/global/tier-iv-tests-level-2-semi-trailer-truck-for-long-haul-autonomous-logistics-with-yamato-transport-and-mitsubishi-fuso-524451.shtml" target="_blank" rel="noopener">TIER IV発表「Level 2+ semi-trailer truck for long-haul autonomous logistics」</a></li>
+<li><a href="https://assets.mitsubishi-fuso.com/fusoassets/2026/03/20260401_press_release_JP_archion-listed-on-tokyo-stock-exchange-prime-market.pdf" target="_blank" rel="noopener">ARCHION、日野自動車、三菱ふそうトラック・バス「ARCHION株式会社が東証プライム市場に上場」</a></li>
+<li><a href="https://www.mlit.go.jp/seisakutokatsu/freight/seisakutokatsu_freight_tk1_000271.html" target="_blank" rel="noopener">国土交通省「自動運転トラックによる幹線輸送の社会実装に向けた実証事業」</a></li>
+</ul>
+<!-- /wp:list -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">お問い合わせ</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>自動運転トラックが実際の幹線輸送に近づくほど、車両・システム・センサーへの評価要件も変化していくと考えられます。長時間・長距離の連続稼働を前提にした信頼性評価や、温度・振動・湿度などの環境条件下での耐久試験についてのご相談はお気軽にどうぞ。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><em>本コラムで取り上げた内容に関連する試験（耐久性評価・環境試験・振動試験など）については、エボルテックの<a href="https://evoltech-shiken.com/environmental_tests/">環境試験一覧</a>もあわせてご覧ください。</em></p>
+<!-- /wp:paragraph -->

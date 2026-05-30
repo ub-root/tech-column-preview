@@ -1,0 +1,214 @@
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="__UPLOAD_BASE_URL__/images/2604-02/eye-catch.png" alt="[アイキャッチ画像]" class="wp-image-replace-after-upload"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">はじめに──「電池の量」が増えても、「評価の常識」は変わらないのか</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>IEAが2025年に公表した「Global EV Outlook 2025」の分析によれば、2030年にはEV電池需要が2024年比で3倍超になると見込まれています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>数字だけ見れば明るい話です。しかし現場の目線から見ると、この成長は新たな難しさを含んでいます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>電池が増えるということは、電池の種類・化学系の多様性も拡大するということです。特にここ数年で存在感を増しているのが<strong>LFP（リン酸鉄リチウム）電池</strong>です。かつては「安価だが性能が低い」と見られていたこの化学系は、技術改良によって採用範囲を急速に広げており、試験や評価の設計においても新たな問いが生まれてきています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<p style="background-color:#e6effc; padding:20px; border-radius:8px; font-size:1.05em; line-height:1.8;"><strong>同じ「電池の試験」でも、NMCとLFPでは何が違うのか。</strong></p>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>この問いを整理しておくことが、電池評価の論点を考えるうえでの出発点になりそうです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">LFPとNMC──「同じEV電池」でも、特性の傾向が違う</h2>
+<!-- /wp:heading -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="__UPLOAD_BASE_URL__/images/2604-02/section-01.png" alt="LFP・NMCなどの主要電池化学系の特性比較" class="wp-image-replace-after-upload"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>まず、LFPとNMC（ニッケル・マンガン・コバルト系、いわゆる三元系）の特性の傾向を大まかに整理しておきます。ただし、実際の特性は製品設計・使用条件によって異なるため、以下はあくまで一般的に語られる傾向の紹介です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">エネルギー密度と重量</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>NMCはエネルギー密度が高く、同じ重量・体積でより長い航続距離を実現しやすいとされています。LFPはエネルギー密度でNMCに劣るとされますが、近年のセル設計の改良、特にCell to Pack（CTP）技術などにより、システムレベルの差は縮まりつつあると報じられています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">温度特性</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>LFPは高温環境での安定性が高い傾向がある一方、<strong>低温での放電性能の低下が顕著</strong>と言われています。0℃以下での容量減少や充電受け入れ能力の低下は、寒冷地向けの評価や輸送・保管中の温度管理設計に関わる論点として挙げられることがあります。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>NMCも低温特性への対応は必要ですが、劣化の現れ方や傾向が異なるとされています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">寿命特性</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>LFPは長寿命とされることが多く、条件次第では数千サイクル級の耐久性として語られることがあります。ただし、実際の寿命は使用条件・設計に大きく左右されるため、一般的な傾向として捉えておくのが適切でしょう。NMCとの比較では、劣化カーブの形や評価指標の選び方が変わることがある点が注目されています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">安全性と熱暴走</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>LFPは熱暴走が発生しにくい傾向があると言われており、安全性評価における取り扱いや試験条件の設計への影響が議論されることがあります。ただし、特性はあくまで傾向であり、個別製品の安全評価は別途必要です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">「前提が変わる」ということの意味</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>こうした特性の違いは、試験設計の「前提条件」を問い直す契機になります。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">温度範囲の再確認</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>NMCを念頭に組まれた試験プロトコルでは、低温側の評価範囲が十分でない場合があると指摘されることがあります。LFPの低温特性の傾向を評価に反映するには、試験温度範囲の設定を確認・見直す場面が出てくるかもしれません。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">充放電サイクル条件の見直し</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>LFPのサイクル寿命の傾向がNMCと異なる場合、どの時点で何を測定するか、どの指標を「劣化の基準」とするかが、プロトコル設計の問いになります。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">輸送・保管時のSOC管理</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>電池の輸送においては、SOC（充電率）の管理が求められる場面があります。航空輸送など特定の輸送条件では、SOCに制限が設けられている規制があります。LFPはSOCによる電圧変化が平坦で残量推定が難しい特性を持つとされており、輸送評価における<strong>SOC設定の妥当性が試験条件の変数の一つ</strong>になる場合があります。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">供給の集中が、評価の標準化に影響する可能性</h2>
+<!-- /wp:heading -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="__UPLOAD_BASE_URL__/images/2604-02/section-02-3.png" alt="LFP・NMCなどの主要電池化学系の特性比較" class="wp-image-replace-after-upload"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>もう一点、気になる構造的な背景があります。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>IEAの分析が示すように、LFP電池の生産は現時点で中国メーカーへの依存が高い状況とされています。調達先が限られる状況は、セルの品質基準や規格の見方にばらつきが生じる可能性があるとも言われており、どの試験規格を根拠に評価するかという点については、注意が必要になる場面も出てくるかもしれません。ただし、この点については情報の推移を継続して確認する必要があります。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">「電池が増える」時代に必要な評価思考</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>電池需要が拡大するということは、多様な電池が多様な用途・環境で使われることを意味します。試験や評価の側も、その多様性に対応できる設計思考が問われてきます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<p style="background-color:#e6effc; padding:20px; border-radius:8px; font-size:1.05em; line-height:1.8;"><strong>「電池の試験はやっている」から「この電池の、この用途での、この環境条件での試験ができる」へ。</strong></p>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>標準的なプロトコルをこなすことと、対象の電池特性を踏まえて試験を設計することは、別のことです。LFPの拡大は、そうした問い直しを加速させているように見えます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>詳細な評価条件は製品・用途によって大きく異なるため一概には言えませんが、試験・評価の観点から見逃せない論点として整理しておきたいテーマです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">まとめ</h2>
+<!-- /wp:heading -->
+
+<!-- wp:table -->
+<figure class="wp-block-table is-style-regular">
+<table>
+<thead>
+<tr>
+<th><strong>ポイント</strong></th>
+<th><strong>内容</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>市場トレンド</td>
+<td>IEAの分析（2025年版）では、2030年のEV電池需要は2024年比3倍超と見込まれ、LFP化学系の採用が拡大している</td>
+</tr>
+<tr>
+<td>NMCとLFPの傾向の違い</td>
+<td>低温特性・寿命特性の形・熱暴走挙動などに傾向の違いがあるとされており、試験設計で前提の確認が必要になる場合がある</td>
+</tr>
+<tr>
+<td>試験設計への影響</td>
+<td>温度範囲・充放電サイクル条件・特定輸送時のSOC管理など、前提条件の見直しが話題になっている</td>
+</tr>
+<tr>
+<td>供給集中の背景</td>
+<td>中国への生産集中が高いLFPの供給体制は、評価条件の標準化においても注意が必要な点として挙げられることがある</td>
+</tr>
+</tbody>
+</table>
+</figure>
+<!-- /wp:table -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">お問い合わせ</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>詳細な評価設計は製品・使用条件によって異なりますが、「LFP電池の評価をどのような条件で設計すればよいか」「輸送・温度・振動の組み合わせ試験について相談したい」といったテーマでお困りの際は、お気軽にご相談ください。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><em>本コラムで取り上げた内容に関連する試験（電池評価・温度試験・振動試験・輸送試験など）については、エボルテックの<a href="https://evoltech-shiken.com/environmental_tests/">環境試験一覧</a>もあわせてご覧ください。</em></p>
+<!-- /wp:paragraph -->
