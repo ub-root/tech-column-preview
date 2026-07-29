@@ -251,20 +251,6 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
 <p>今回は、その「空白地から埋まっていく」過程を追いながら、地上に置かれる端末に何が求められているのかまで見ていきます。</p>
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <h2 class="wp-block-heading">なぜ低軌道なのか──静止衛星との決定的な違い</h2>
-<figure class="wp-block-image aligncenter">
-    <!-- image prompt:
-    A clean technical editorial illustration for a Japanese engineering column comparing geostationary and low earth orbit.
-    White and pale gray background, wide horizontal composition, abstract cross-section diagram style rather than a literal map or realistic space photo.
-    Show a gentle curved arc representing the Earth's surface at the bottom of the frame. Place one thin dashed arc very close above it to represent a low altitude band, and a second thin dashed arc far higher near the top of the frame to represent a much higher altitude band, so the vertical gap between them clearly communicates a large difference in distance.
-    Place a small cluster of simple dot-like satellite markers along the lower arc, and a single slightly larger abstract satellite shape on the upper arc.
-    Add a thin vertical measure line with plain tick marks between the two arcs to suggest scale, without any numbers or text.
-    Low saturation, muted slate blue and pale gray tones, soft diffused lighting, clean vector-like abstraction or semi-realistic 3D render, lots of whitespace, no readable text, no logos, no brand-specific products, no people, no dramatic colors, no sci-fi glow, 16:9 composition.
-
-    negative prompt:
-    no readable text, no letters, no numbers, no labels, no logos, no brand names, no real company products, no realistic planet photo, no country outline, no dramatic lighting, no neon colors, no cyberpunk, no futuristic hologram UI, no crowded background, no human face, no hands, no photographic realism, no explosion or collision imagery.
-    -->
-    <img data-local="images/2607-02/section-11.png" src="" alt="地球の断面を簡略化し、静止軌道（約36,000km）と低軌道（数百km）の高度差を対比させた模式図。距離が桁違いであること、それが信号の往復時間の差につながることを直感的に示す。" style="max-width: 100%; height: auto;">
-</figure>
 <p>衛星通信そのものは新しい技術ではありません。放送や船舶通信では、静止軌道の衛星が長く使われてきました。</p>
 <p>静止軌道は赤道上空の高度約36,000km。地球の自転と同じ周期で回るため、地上から見ると空の一点に止まって見えます。アンテナを固定したまま使えて、少ない機数で広い範囲をカバーできる——長く使われてきたのには理由があります。</p>
 <p>問題は距離です。通信では地上局と衛星を経由して往復するため、電波はおおむね14万kmを進むことになります。光の速さをもってしても、実効的な往復遅延は0.5秒前後に及びます。一方通行の放送であれば気になりません。しかしビデオ会議、遠隔操作、双方向のやり取りが前提の用途では、この遅れが体感の質を大きく損ないます。</p>
@@ -283,7 +269,7 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
     negative prompt:
     no readable text, no letters, no labels, no logos, no brand names, no flags, no military symbols, no weapons, no soldiers, no dramatic destruction, no fire, no smoke, no photographic realism, no dramatic lighting, no neon colors, no cyberpunk, no human face, no hands, no real company products.
     -->
-    <img data-local="images/2607-02/section-21.png" src="" alt="建物や電柱が破壊された街の中に、スターリンクの端末が屋外に設置されている状況を連想させるイラスト。インフラが失われた後に機能する「別ルートの通信」を示す構図。" style="max-width: 100%; height: auto;">
+    <img data-local="images/2607-02/section-11.png" src="" alt="建物や電柱が破壊された街の中に、スターリンクの端末が屋外に設置されている状況を連想させるイラスト。インフラが失われた後に機能する「別ルートの通信」を示す構図。" style="max-width: 100%; height: auto;">
 </figure>
 <p>スターリンクの実力を世界に示した出来事のひとつが、2022年2月に始まったロシアによるウクライナ侵攻です。</p>
 <p>侵攻開始直後、地上の通信インフラが次々と破壊されるなか、ウクライナ政府の要請を受けて SpaceX はスターリンク端末を大量に提供しました。地上の基地局や光ファイバー網に依存しない衛星通信は、それらが破壊された後も機能し続け、軍の指揮系統だけでなく、病院・行政・市民のインターネットアクセスにも使われたと報じられています。</p>
@@ -303,6 +289,20 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
 <p>漁業では、洋上での気象情報・漁場情報・業務連絡のリアルタイム化に活用が始まっています。農業では、ドローン農薬散布の通信制御や、圃場センサーデータの送受信への活用も実証段階にあります。「繋がらないから諦めていた業務」が、順に選択肢に入り始めている段階と言えます。</p>
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <h2 class="wp-block-heading">スマホが直接衛星につながる──端末を置く必要すらなくなる</h2>
+<figure class="wp-block-image aligncenter">
+    <!-- image prompt:
+    A clean technical editorial illustration for a Japanese engineering column about direct satellite-to-smartphone connectivity.
+    White and pale gray background, wide horizontal composition, abstract diagram style rather than a realistic scene.
+    Show a single generic smartphone rendered as a plain blank outline with no screen content, placed near the bottom of the frame. A thin dotted signal line rises directly from it toward a small simplified satellite shape near the top of the frame, with no ground antenna, dish, or base tower anywhere along that path.
+    To one side, place a faint greyed-out ground base-station tower shape with its link line faded or broken, suggesting that the intermediate equipment is no longer required.
+    Emphasize the large vertical distance between the phone and the satellite with generous whitespace and a thin plain measure line without numbers.
+    Low saturation, muted slate blue and pale gray tones, soft diffused lighting, clean vector-like abstraction or semi-realistic 3D render, no readable text, no logos, no brand-specific products, no people, no hands, no dramatic colors, no sci-fi glow, 16:9 composition.
+
+    negative prompt:
+    no readable text, no letters, no numbers, no labels, no logos, no brand names, no carrier branding, no real phone model, no app icons, no screen UI, no real company products, no realistic planet photo, no country outline, no dramatic lighting, no neon colors, no cyberpunk, no futuristic hologram UI, no crowded background, no human face, no hands, no photographic realism.
+    -->
+    <img data-local="images/2607-02/section-21.png" src="" alt="スマートフォンが地上の基地局や専用アンテナを介さず、直接衛星と通信する構成を示した模式図。数百km先の衛星まで手のひらの端末が電波を届ける距離感を、低彩度の抽象図で示す。" style="max-width: 100%; height: auto;">
+</figure>
 <p>ここまでの活用例には、ひとつ共通する前提があります。専用のアンテナ端末を現地に設置する、ということです。避難所にせよ漁船にせよ、まず機材があって、はじめて繋がります。</p>
 <p>この前提を外そうとする動きが、Direct to Cell（ダイレクト・トゥ・セル）と呼ばれる方式です。衛星側に携帯電話の基地局に相当する機能を載せ、手元のスマートフォンが衛星と直接やり取りする——専用端末もアンテナも介さない構成になります。</p>
 <p>日本では、KDDI が2025年4月10日に「au Starlink Direct」の提供を開始したと発表しています。対応するスマートフォンであれば、これまで圏外だった山間部や離島、洋上でもメッセージの送受信ができるとされ、当初はSMS が中心でしたが、その後データ通信にも対応が広がりました。2026年に入ってからは NTT ドコモ・ソフトバンクも同種のサービスを打ち出しており、「圏外をどう埋めるか」は通信事業者の競争軸のひとつになりつつあります。</p>
