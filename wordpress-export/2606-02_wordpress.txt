@@ -1,0 +1,191 @@
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="__UPLOAD_BASE_URL__/images/2606-02/2606-02.png" alt="2606-02" class="wp-image-replace-after-upload"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">はじめに──「選べるようになった」が生んだ、新しい問い</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>衛星を宇宙に打ち上げるコストは、ここ数年で大きく下がりました。SpaceX が年間100回を超える規模で打ち上げを重ね、2026年6月にはIPOも大きな注目を集めました。Ariane 6（2024年）、New Glenn（2025年1月）と新しいロケットも登場し、小型衛星向けのライドシェアサービスも普及しています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>日本でも、2024年2月の H3 試験機2号機成功に続き、2026年6月12日には低コスト型の「H3-30」形態による打上げも成功しました。国産ロケットは、技術実証の段階から、複数の形態で顧客ニーズに応える段階へ進みつつあります。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>宇宙アクセスが「選べる時代」になったのは確かです。では、衛星を地上で「宇宙に耐えられる状態」に仕上げる試験も、楽になったのでしょうか。調べていくと、選択肢が増えたことで、むしろ「どう試験するか」の問いが複雑になっているように見えます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">ロケットが違えば「振動の性格」が違う</h2>
+<!-- /wp:heading -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="__UPLOAD_BASE_URL__/images/2606-02/section-11.png" alt="3種のロケット（大型液体・固体ブースター付き・小型液体）の打ち上げイメージの横に、それぞれ異なる波形グラフを対応させた図。「同じ衛星でもロケットが変われば試験条件が変わる」という概念を直感的に示す。" class="wp-image-replace-after-upload"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">打ち上げ時の何が機器を試すのか</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>ロケットが打ち上げられると、搭載機器は複数の力を同時に受けます。エンジン燃焼による低周波の振動、フェアリング内で伝わる空気の圧力変動、ステージ分離時の衝撃——これらが数分間にわたり機器を試し続けます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>こうした負荷は、電子機器の基板上のはんだ接合部や、光学機器のマウント部といった細かな構造が疲労・損傷するリスクに直結します。宇宙では修理ができないため、地上での試験が最後のチェックポイントです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">問題は「力の大きさ」がロケットごとに異なること</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>一般に、大型ロケットでは低周波側の振動エネルギーが問題になりやすく、固体ブースターを持つ機体では燃焼や分離に伴う特有の負荷も考慮が必要になります。液体燃料のみのロケットとはプロファイルが違い、フェアリングの形状や内部構造でも圧力変動の伝わり方が変わります。各ロケット事業者は「ペイロードユーザーズガイド」として要求環境を公開していますが、書式も数値の詳細度もまちまちです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>ロケットが1種類に決まっていれば、話は単純です。「このロケットの環境に耐えられることを、この規格で証明する」。しかし「どのロケットで打ち上げるか、まだ決まっていない」——あるいは「途中で変わった」——という状況が生まれた瞬間、試験設計は根本から問い直しを迫られます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">「全部に対応しよう」とすると、何が起きるか</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>複数のロケット候補がある場合に取られる現実的な手法が「<strong>包絡線アプローチ（envelope approach）</strong>」です。各ロケットの振動レベルを重ね合わせ、「どれよりも厳しい試験条件」を一度だけ設定して試験する。どのロケットに乗ることになっても、試験は通過済みという状態を事前に作っておく方法です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>理屈の上では合理的です。ところが、包絡線を取ると、実際のどの打ち上げ環境よりも厳しい条件での試験になりえます。その結果として起きうる問題が「<strong>オーバーテスト</strong>」です。試験中にはんだ接合部が断線したり、固定部が疲労破壊したり、試験後に性能が微妙に変化していたりする。これらは、実際の打ち上げでは起きなかったはずの損傷かもしれません。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>試験そのものが機器の敵になりかねない。しかも「どこで包絡線を引くか」に明確な正解はありません。引きすぎればオーバーテスト、引かなさすぎれば未対応のロケットが残ります。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">規格が乱立している理由は「技術の違い」だけではない</h2>
+<!-- /wp:heading -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="__UPLOAD_BASE_URL__/images/2606-02/section-24.png" alt="NASA・ESA・JAXA それぞれの方向を向いた矢印と、それぞれに紐づく規格名を示した図。「共通言語がない」状況を示しつつ、それぞれの立場を尊重した中立的なイラスト。" class="wp-image-replace-after-upload"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">リスクへの哲学が規格を作る</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>宇宙機器の試験規格は複数あります。NASA の GEVS（GSFC-STD-7000）、欧州の ECSS（ECSS-E-ST-10-03C Rev.1）、日本の JAXA 基準（JERG シリーズ等）、SpaceX の Rideshare Payload User&#x27;s Guide ——これらが「なぜ統一されないのか」は、技術的な理由だけではないように見えます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>背景にあるのは、開発主体ごとの<strong>リスクに対する哲学の違い</strong>です。NASA や JAXA のような公的ミッションでは、長く高い信頼性を重視する前提で試験体系が整えられてきました。一方、商業衛星では、単一機の完全性だけでなく、コンステレーション全体でサービスを継続する設計思想や、市場投入のスピードも重要になります。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>SpaceX の RPG が NASA GEVS と完全には一致していないのは、技術的な誤りではありません。「どのリスクを試験で保証し、どのリスクを事業者が許容するか」という思想の違いの表れです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">日本のスタートアップが直面している、もう一層の問い</h2>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">国内の信頼性文化と、商業宇宙のスピード</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><strong>アクセルスペース</strong>（光学衛星コンステレーション）や<strong>QPS 研究所</strong>（小型 SAR 衛星、福岡市）は SpaceX Falcon 9 での打上げ実績を持ち、<strong>シンスペクティブ</strong>（SAR 衛星）は Rocket Lab の Electron を使って StriX 衛星の打上げを積み重ねています。各社の打上げ機関の選択は、事業計画や軌道投入条件に応じて戦略的に多様化しています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>これらの企業は、国内宇宙産業の蓄積を背景に成長しながら、商業宇宙のスピードとコストでも戦っています。国内実証や特定ロケットを前提に設計していた衛星を、別の商業打上げ機会に合わせ込むような状況では、「どのリスクまで自社として許容するか」「どこまで試験すれば説明がつくか」を自分たちで決める必要があります。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">試験設計の本質は「リスクの翻訳」にある</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>「どの規格で試験するか」という問いは、実は「どのリスクを誰が負うか」という問いの言い換えです。ロケット事業者は自分の打上げ環境で壊れないことを求め、衛星メーカーはミッションを遂行できる機器を届けたい。その間に立って、「どの条件で、どこまで試験すれば合理的に安全と言えるか」を判断することが、試験設計の核心になります。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>振動試験は「過去のどのロケットで飛んだか」ではなく、「これから飛ぶロケットの何を再現するか」を起点に設計されます。ランダム振動試験・正弦波掃引試験・衝撃試験をどう組み合わせ、どのレベルで実施するかは、打上げ事業者の要求と機器の特性の両方を踏まえた判断です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>「厳しく試験すればいい」でも「安く済ませればいい」でもなく、「この機器にとって意味のある試験は何か」を問い続けることが大切です。こうした観点でのご相談は、エボルテックまでお気軽にどうぞ。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">まとめ</h2>
+<!-- /wp:heading -->
+
+<!-- wp:table -->
+<figure class="wp-block-table is-style-regular"><table><thead><tr><th>ポイント</th><th>内容</th></tr></thead><tbody><tr><td>逆説</td><td>打ち上げコストが下がり選択肢が増えるほど、「どう試験するか」の問いは複雑になる</td></tr><tr><td>オーバーテストの罠</td><td>複数ロケットに対応しようと試験条件を包絡すると、試験そのものが機器を傷める可能性がある</td></tr><tr><td>規格の背景</td><td>NASA GEVS・ECSS・SpaceX RPG・JAXA 基準の違いには、リスク許容の考え方も反映されている</td></tr><tr><td>日本の現在地</td><td>Axelspace・QPS・Synspective など、日本の宇宙スタートアップが商業打上げのリスク文化と折り合いをつけながら実績を積んでいる</td></tr><tr><td>問いの本質</td><td>「どの規格か」より「このミッションでどのリスクを許容するか」が核心</td></tr></tbody></table></figure>
+<!-- /wp:table -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">参考情報</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul><li><a href="https://www.jaxa.jp/press/2024/02/20240217-1_j.html" target="_blank" rel="noopener">JAXA「H3試験機2号機 打上げ結果」</a>（2024/02/17）</li><li><a href="https://apnews.com/article/9c64f2c59b9212d612902e74823b77b5" target="_blank" rel="noopener">AP News「Japan&#x27;s struggling flagship H3 rocket returns to flight with the debut of a low-cost variant」</a>（2026/06/12）</li><li><a href="https://www.theguardian.com/science/2026/jun/12/spacex-stock-price-ipo-spcx" target="_blank" rel="noopener">The Guardian「SpaceX makes largest ever stock market debut」</a>（2026/06/12）</li><li><a href="https://www.mhi.com/jp/business/products-services/space-defense/launch-service/launch-vehicles" target="_blank" rel="noopener">三菱重工「H3ロケット 打上げサービス」</a></li><li><a href="https://global.jaxa.jp/projects/sat/" target="_blank" rel="noopener">JAXA「革新的衛星技術実証プログラム」</a></li><li><a href="https://standards.nasa.gov/standard/gsfc/gsfc-std-7000" target="_blank" rel="noopener">NASA GSFC-STD-7000B「General Environmental Verification Standard (GEVS)」</a></li><li><a href="https://ecss.nl/standard/ecss-e-st-10-03c-rev-1-testing-31-may-2022/" target="_blank" rel="noopener">ECSS「ECSS-E-ST-10-03C Rev.1 Space engineering – Testing」</a>（2022年改訂版）</li><li><a href="https://storage.googleapis.com/rideshare-static/Rideshare_Payload_Users_Guide.pdf" target="_blank" rel="noopener">SpaceX「Rideshare Payload User&#x27;s Guide」</a></li></ul>
+<!-- /wp:list -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">お問い合わせ</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>宇宙・航空宇宙機器の振動試験・衝撃試験・環境試験についてのご相談は、お気軽にどうぞ。打ち上げロケットの環境要求を踏まえた試験設計のご相談にも対応しています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:paragraph -->
+<p><em>本コラムで取り上げた内容に関連する試験（振動試験・衝撃試験・環境試験など）については、エボルテックの<a href="https://evoltech-shiken.com/environmental_tests/" target="_blank" rel="noopener">環境試験一覧</a>もあわせてご覧ください。</em></p>
+<!-- /wp:paragraph -->

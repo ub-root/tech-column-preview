@@ -1,0 +1,239 @@
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="__UPLOAD_BASE_URL__/images/2607-02/2607-02.png" alt="地球を俯瞰し、洋上・被災地・離島・山間部の各地点が低軌道の衛星経由で結ばれている構図。都市部ではなく「地上網の空白地」から順に繋がっていく様子を示し、記事全体のテーマを先取りする。" class="wp-image-replace-after-upload"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">はじめに──「どこでも繋がる」は、どこから現実になったのか</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>SpaceX が Starlink（スターリンク）の打ち上げを本格化させたのは2019年のことです。それから約7年で、軌道上のアクティブ衛星数は1万機を超え、サービスは世界100か国以上に広がりました。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>「どこでも高速インターネットが使える」——この宣伝文句を聞いたとき、多くの人は「自宅の光回線の代わり」を想像したかもしれません。しかし実際にスターリンクが最初に真価を発揮したのは、そういう場所ではありませんでした。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>戦場、洋上、被災地、離島。<strong>地上の通信インフラが「壊された」「そもそも引けない」「一斉に止まった」場所</strong>から順に、衛星通信は現実のインフラになっていきました。都市部の平時では目立たず、条件の厳しい場所から社会実装が進む——この順番そのものが、衛星通信という技術の性格を表しています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>今回は、その「空白地から埋まっていく」過程を追いながら、地上に置かれる端末に何が求められているのかまで見ていきます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">なぜ低軌道なのか──静止衛星との決定的な違い</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>衛星通信そのものは新しい技術ではありません。放送や船舶通信では、静止軌道の衛星が長く使われてきました。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>静止軌道は赤道上空の高度約36,000km。地球の自転と同じ周期で回るため、地上から見ると空の一点に止まって見えます。アンテナを固定したまま使えて、少ない機数で広い範囲をカバーできる——長く使われてきたのには理由があります。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>問題は距離です。通信では地上局と衛星を経由して往復するため、電波はおおむね14万kmを進むことになります。光の速さをもってしても、実効的な往復遅延は0.5秒前後に及びます。一方通行の放送であれば気になりません。しかしビデオ会議、遠隔操作、双方向のやり取りが前提の用途では、この遅れが体感の質を大きく損ないます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>低軌道は、ここが根本的に違います。高度は数百km程度で、静止軌道の数十分の一。往復の距離が桁で縮むぶん、遅延も数十ミリ秒の水準に収まり、地上の回線に近い感覚で使えるとされています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>ただし代償があります。低軌道の衛星は地上から見て高速で移動するため、一機が同じ地点をカバーできる時間はごくわずかです。途切れない通信を成立させるには、次の衛星が、また次の衛星が、と絶え間なく上空を通過する状態をつくらなければなりません。<strong>低遅延・広域・常時接続を両立するには、大規模な衛星群が必要になる</strong>という構造です。多ければ良いという話ではなく、衛星の数は求める通信品質とカバー範囲の間で決まります。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">① 戦場：インフラが「壊される」場所で</h2>
+<!-- /wp:heading -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="__UPLOAD_BASE_URL__/images/2607-02/section-11.png" alt="建物や電柱が破壊された街の中に、スターリンクの端末が屋外に設置されている状況を連想させるイラスト。インフラが失われた後に機能する「別ルートの通信」を示す構図。" class="wp-image-replace-after-upload"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>スターリンクの実力を世界に示した出来事のひとつが、2022年2月に始まったロシアによるウクライナ侵攻です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>侵攻開始直後、地上の通信インフラが次々と破壊されるなか、ウクライナ政府の要請を受けて SpaceX はスターリンク端末を大量に提供しました。地上の基地局や光ファイバー網に依存しない衛星通信は、それらが破壊された後も機能し続け、軍の指揮系統だけでなく、病院・行政・市民のインターネットアクセスにも使われたと報じられています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>ここで生まれた前例は、技術的な可能性にとどまりません。<strong>民間企業が運営するインフラが、戦争という極限状況下で国家の軍事・人道活動を支えた</strong>という事実です。イーロン・マスク個人の判断がウクライナの通信環境を左右した場面もあり、「誰がインフラを支配するか」という新しい問いも同時に生まれました。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">② 海と空：インフラが「そもそも届かない」場所で</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>戦場ほど劇的ではありませんが、より広範囲に効いている変化が、海上と空です。どちらも、地上の基地局が物理的に届かない場所です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>海上では、漁船・貨物船・クルーズ船向けの「Maritime Starlink」が普及しつつあります。従来の海上衛星通信（Ku バンド等の静止衛星経由）は速度・遅延・コストに限界があり、「海の上は繋がらない、繋がっても料金が高く、遅い」という前提が長くありました。低軌道を周回するスターリンクは遅延が桁違いに小さく、その前提を変えつつあります。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>航空では、United・Qatar Airways・Hawaiian Airlines・JAL グループの ZIPAIR などがスターリンクを機内 Wi-Fi として導入・展開しています。従来の機内インターネットと比べ、速度・安定性・遅延のいずれも向上するとされ、「機内は繋がらない時間」という感覚も変わり始めています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">③ 被災地：インフラが「一斉に止まった」場所で</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>2024年1月1日の能登半島地震では、多くの地域で電力・固定回線・携帯基地局が同時に被災しました。このとき、被災地での通信手段のひとつとして注目されたのがスターリンクです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>スターリンクは2022年10月に日本でサービスを開始しており、一部の自治体や通信事業者がすでに導入していたことで、地震直後から避難所などで活用できたケースがありました。地上のインフラは、電源・基地局・伝送路のどれか一つが切れても止まります。それらをまとめて空に迂回できる衛星通信の価値が、実際の災害で確認された形です。現在は総務省や自治体の防災計画でも、衛星通信を平時から備えておくことの議論が進んでいます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">④ 離島・農村・漁業：インフラが「経済的に引けない」場所で</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>日本には、光ファイバーの敷設が経済的に成立しにくい離島・山間集落が多くあります。スターリンクはこうした地域で、ブロードバンドの代替として導入が進んでいます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>漁業では、洋上での気象情報・漁場情報・業務連絡のリアルタイム化に活用が始まっています。農業では、ドローン農薬散布の通信制御や、圃場センサーデータの送受信への活用も実証段階にあります。「繋がらないから諦めていた業務」が、順に選択肢に入り始めている段階と言えます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">スマホが直接衛星につながる──端末を置く必要すらなくなる</h2>
+<!-- /wp:heading -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="__UPLOAD_BASE_URL__/images/2607-02/section-21.png" alt="スマートフォンが地上の基地局や専用アンテナを介さず、直接衛星と通信する構成を示した模式図。数百km先の衛星まで手のひらの端末が電波を届ける距離感を、低彩度の抽象図で示す。" class="wp-image-replace-after-upload"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>ここまでの活用例には、ひとつ共通する前提があります。専用のアンテナ端末を現地に設置する、ということです。避難所にせよ漁船にせよ、まず機材があって、はじめて繋がります。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>この前提を外そうとする動きが、Direct to Cell（ダイレクト・トゥ・セル）と呼ばれる方式です。衛星側に携帯電話の基地局に相当する機能を載せ、手元のスマートフォンが衛星と直接やり取りする——専用端末もアンテナも介さない構成になります。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>日本では、KDDI が2025年4月10日に「au Starlink Direct」の提供を開始したと発表しています。対応するスマートフォンであれば、これまで圏外だった山間部や離島、洋上でもメッセージの送受信ができるとされ、当初はSMS が中心でしたが、その後データ通信にも対応が広がりました。2026年に入ってからは NTT ドコモ・ソフトバンクも同種のサービスを打ち出しており、「圏外をどう埋めるか」は通信事業者の競争軸のひとつになりつつあります。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>技術的な難しさは、距離の差にあります。地上の基地局は数km先にありますが、衛星は数百km先です。手のひらに収まる端末が、小さなアンテナと限られた送信電力で、その距離を往復しなければなりません。提供開始時にメッセージ系の機能から始まったのは、この制約を反映したものと見られます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>とはいえ、「電波が届かない場所」の定義が動き始めていることは確かです。地上網の空白は、まず専用端末を置ける場所から埋まり、いまはそれを置けない場所にまで広がろうとしています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">共通項──「地上網の空白」を埋めるレイヤー</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>戦場・海と空・被災地・離島。四つの現場に共通するのは、<strong>地上の通信網が使えない理由がそれぞれ違う</strong>ということです。壊された、届かない、止まった、引けない——理由は違っても、衛星通信は同じ一つの答えとして機能しました。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>これは「光回線の代替」というより、「地上インフラの前提が崩れる場所を埋めるレイヤー」と捉えたほうが実態に近いでしょう。都市部の平時ではほとんど意識されない技術が、条件の厳しい場所では代えのきかないインフラになる。同じ製品が置かれる環境の幅が、これほど広い分野も珍しいかもしれません。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>そして、その「環境の幅」こそが、機器をつくる側にとっての難しさになります。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">振動試験の目線で見ると──端末は最も過酷な場所に置かれる</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>「どこでも繋がる」という価値は、裏を返せば<strong>端末が最も過酷な場所に置かれる</strong>ということでもあります。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>漁船に搭載された端末は、波による振動・塩害・高温多湿にさらされ続けます。機内に設置されたアンテナは、航空機器の環境試験規格 DO-160 が定める振動・温度条件に耐える必要があります。被災地や車載用途では、輸送・走行振動、温度変化、防塵防水性能が問われます。「どこでも繋がる」という約束は、「どこに置いても壊れない端末」があって初めて成立します。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>しかも、これらの端末が必要とされるのは、多くの場合「壊れては困るとき」です。災害直後の避難所、洋上の漁船、地上網が途絶した現場——修理も交換もすぐには効かない状況で動き続けることが前提になります。平時のオフィス機器とは、求められる信頼性の性格が違うと言えそうです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>こうした条件をどう試験項目に落とし込むかは、設置環境や使用条件によって変わるため一概には言えません。ただ、通信機器・アンテナ・車載や船舶に搭載される機器の環境試験・振動試験は、エボルテックが日常的に向き合っている領域と重なります。評価設計でお困りの際は、お気軽にご相談ください。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">参考情報</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul><li><a href="https://www.starlink.com/" target="_blank" rel="noopener">SpaceX「Starlink」</a></li><li><a href="https://newsroom.kddi.com/news/detail/kddi_nr-533_3815.html" target="_blank" rel="noopener">KDDI「au、日本全土をエリア化、衛星とスマホの直接通信サービス『au Starlink Direct』を提供開始」</a>（2025年4月）</li><li><a href="https://www.soumu.go.jp/" target="_blank" rel="noopener">能登半島地震でのスターリンク活用に関する報道</a>（2024年1月）</li></ul>
+<!-- /wp:list -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">お問い合わせ</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>衛星通信端末・アンテナ、および車載・船舶搭載機器の振動試験・環境試験についてのご相談は、お気軽にどうぞ。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:paragraph -->
+<p><em>本コラムで取り上げた内容に関連する試験については、エボルテックの<a href="https://evoltech-shiken.com/environmental_tests/" target="_blank" rel="noopener">環境試験一覧</a>もあわせてご覧ください。</em></p>
+<!-- /wp:paragraph -->

@@ -1,0 +1,195 @@
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="__UPLOAD_BASE_URL__/images/2606-01/2606-01.png" alt="2606-01" class="wp-image-replace-after-upload"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">「飛ばせる技術」と「飛ばしていい場所」は別。2026年 W杯開催に関わる規制</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>2026年6月11日、FIFA ワールドカップが北米3か国（アメリカ・カナダ・メキシコ）で開幕を迎えました。世界中から観客が集まるこの大会では、少なくとも米国内の開催スタジアムや関連イベント周辺が厳格な「No Drone Zone」に指定され、無人航空機の侵入に対する法執行が強化されています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>こうした空域管理の問いは、日本でも無縁ではありません。2025年4月から10月にかけて開催された大阪・関西万博でも、会場周辺の飛行が制限され、許可を得た事業者だけが運用できる枠組みが敷かれました。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>ドローンの話題はしばしば「どこまで飛べるか」「どれだけ自律的に動けるか」という技術の軸で語られます。しかし最近の動向を調べていると、むしろ「飛ばしてよい場所で、飛ばしてよい方法で、責任を持って飛ばす」という判断とガバナンスの話が、普及の本丸になってきているように感じます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>今回は、規制の最前線である米国の動きを足がかりに、日本の現状と照らし合わせながら整理してみました。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">米国最前線①：FAA の法執行強化と「知らなかった」が通じない時代</h2>
+<!-- /wp:heading -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="__UPLOAD_BASE_URL__/images/2606-01/section-11.png" alt="アメリカの空域区分（クラスA〜G）と飛行制限区域（TFR）を色分けした概念図。スタジアムや空港周辺の禁止エリアが直感的にわかる構成。" class="wp-image-replace-after-upload"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">FAA が 2026年2月に公表した摘発データ</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>米国連邦航空局（FAA）は2026年2月、2025年のドローン違反摘発まとめを公表しました。禁止区域への無許可侵入、商業利用に必要な「Part 107」資格の未取得、機体登録義務の不履行などが主な内容です。公表資料では、危険な飛行や無許可飛行に対して罰金、資格停止、資格取消しといった対応が示されており、FAA は「ルールを知らずに飛ばしてしまった」というケースに対しても、厳しい対応へとシフトしつつあるとされています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Part 107 とは、米国でドローンを商業目的で飛ばす場合に求められる資格・規則の体系です。学科試験に合格して「Remote Pilot Certificate」を取得し、特定の空域・時間帯・飛行方式の制限に従うことが条件となります。この枠組みは2016年に施行されましたが、法執行の実態的な強化は近年になって本格化している印象があります。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">▶ 日本では：技能証明と機体認証が壁になっている</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>日本でも2022年12月の航空法改正で、商業利用を想定した制度が大きく変わりました。「レベル4飛行（有人地帯での補助者なし目視外飛行）」を解禁する代わりに、<strong>第一種機体認証</strong>と<strong>一等無人航空機操縦者技能証明</strong>の両方が必要とされています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>技能証明は学科試験・実地試験・身体検査の三段階で構成されており、特に一等のハードルは高めです。2026年現在、レベル4を実際に運用できている事業者はまだ限定的とされています。国土交通省の制度でも、機体登録、飛行許可・承認、技能証明などを通じて運用条件を事前に確認する仕組みが整えられており、「知らなかった」が免責になりにくい環境になっています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">米国最前線②：BVLOS ルール整備の進捗</h2>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">FAA の BVLOS NPRM：商業ドローンの「次のフェーズ」</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>「目視外飛行（BVLOS: Beyond Visual Line of Sight）」は、ドローン配送やインフラ点検の実用化に欠かせない技術です。FAA は2025年8月に、BVLOS 飛行を包括的に認めるための提案規則制定通知（NPRM）を公表しました。これは単なる技術基準の話ではなく、「どのような条件下なら目視なしで飛ばせるか」「事故時の責任はどこに帰属するか」というシステム全体の設計を問うものです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Amazon Prime Air（米国）や Wing（Alphabet 傘下、米国など複数地域で商業運用）など、大手が BVLOS を前提とした配送サービスを展開しはじめており、FAA のルール整備は商業化の速度に直結しています。米国の議論は「技術が使えるか」ではなく「どのルール設計なら社会が受け入れるか」という段階に移っています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">▶ 日本では：実証の積み上げと事業化の壁</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>日本での BVLOS 実証は、離島・山間部・過疎地域を中心に複数の事業者が積み重ねてきました。楽天グループは島根県海士町（あまちょう）での食料品配送、ANA ホールディングスは高知県等での物流実証などをそれぞれ実施しています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>米国と日本の違いは、「商業運用の承認」に至るまでの距離感です。米国では Wing が実際の住宅地で注文ごとの配送サービスを展開しているのに対し、日本の事業者はまだ実証・許可申請のサイクルを繰り返している段階が多い状況です。制度上の BVLOS（レベル4）は解禁されていますが、「申請コスト・天候リスク・住民理解・採算性」という実務の壁がなお厚いとされています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">米国最前線③：FIFA ワールドカップ 2026 が示す「イベント×空域管理」</h2>
+<!-- /wp:heading -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="__UPLOAD_BASE_URL__/images/2606-01/section-21.png" alt="北米3か国（アメリカ・カナダ・メキシコ）の開催都市を示した地図。各スタジアム周辺にTFR（飛行禁止区域）を示す円が描かれ、上空から見た「禁止エリアの広さ」を直感的に示した構図。" class="wp-image-replace-after-upload"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">TFR という仕組みと FIFA のスケール</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>FAA は大会に向けて、米国内の FIFA ワールドカップ 2026 開催スタジアム、ファンイベント会場、チーム関連施設等に「Temporary Flight Restriction（TFR、臨時飛行制限）」を設定すると案内しています。スタジアム周辺は試合日ごとに制限が設けられ、ファンイベントやチームホテル・練習施設には複数日にわたる UAS 制限が適用されます。なお、カナダ・メキシコの会場は各国当局の管轄です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>このスケールのイベントでは、セキュリティ・放映権・混雑管理が複合的に絡みます。「技術的に飛べる機体があっても、飛ばしていい場所・タイミングかどうかを判断する責任は操縦者にある」という原則が、数十万人規模の観衆の目の前で試される場になります。FAA が B4UFLY アプリなどのツールで事前確認を徹底させている背景も、こうしたリスクへの対応です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">▶ 日本では：万博2025 と恒常的な禁止区域</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>日本でも、大規模イベントでの飛行制限は現実の課題として機能しました。大阪・関西万博2025（2025年4月〜10月）では、会場の夢洲（ゆめしま）およびその周囲1,000mが飛行禁止区域に設定され、許可を得た事業者のみが飛行・配送できる枠組みが設けられました。「万博でドローン物流を実証する」という企画も複数ありましたが、それぞれ事前の許可取得が前提でした。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>それ以外にも、日本には恒常的な飛行禁止区域があります。<strong>国会議事堂・首相官邸・最高裁判所・皇居や原子力事業所の周辺</strong>は<strong>小型無人機等飛行禁止法</strong>により原則禁止です。また、航空法上は空港周辺、高度150m以上、人口集中地区（DID）上空なども原則として許可なく飛行できません。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>これらは国土交通省が提供する「DIPS2.0（ドローン情報基盤システム）」や飛行マップで確認できますが、「調べなかった」は免責になりません。FIFA のスケールとは異なりますが、「技術と判断のギャップ」という問いは日本でも同じです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">技術の普及が「運用ガバナンス」を追いかけている</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>米国と日本の動向を並べると、共通しているのは「機体の技術は先行し、運用ガバナンスが後から追いついていく」という構図です。米国では FAA が法執行を強め、日本では機体認証・技能証明によって運用条件を整理しています。いずれも、「飛ばせる機体があるから飛ばす」ではなく、「飛ばしてよい条件を確認してから飛ばす」方向へ制度を寄せていると言えます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>背景にあるのは、墜落時に地上の人や建物へ危害が及ぶリスク、空港周辺や緊急用務空域で有人航空機・救助活動へ影響するリスク、さらに風雨・気温・砂塵・電波環境といった屋外条件です。制度上の許可や技能証明だけでなく、機体や部品が実使用環境で性能を維持できるかを確かめることも、安全性・信頼性を支える評価として重要になります。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>特に、屋外で使われる機器は設計値だけでは見えない負荷を受けます。振動、温度変化、湿度、衝撃などを試験で確認しておくことは、運用中の不具合を減らし、事故につながるリスクを事前に洗い出すための現実的な手段です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">まとめ</h2>
+<!-- /wp:heading -->
+
+<!-- wp:table -->
+<figure class="wp-block-table is-style-regular"><table><thead><tr><th>ポイント</th><th>米国の状況</th><th>日本の状況</th></tr></thead><tbody><tr><td>法執行・制度運用</td><td>FAA が2026年2月に摘発強化を公表。Part 107 違反への対応が厳しくなっている</td><td>機体登録、飛行許可・承認、技能証明などで運用条件を確認する仕組みが整っている</td></tr><tr><td>BVLOS</td><td>FAA NPRM が制度設計中。Wing が住宅地で商業配送を展開</td><td>レベル4は解禁済みだが、申請コスト・採算性の壁が厚く、商業化は途上</td></tr><tr><td>大規模イベント</td><td>FIFA WC 2026 で TFR を設定。放映権・セキュリティが複合的に絡む</td><td>万博2025で飛行制限を実施。許可事業者のみ運用できる枠組みが定着しつつある</td></tr><tr><td>共通の問い</td><td>技術の先行に対し、ガバナンス・教育・法執行が後追いになりやすいという構図は両国共通</td><td></td></tr><tr><td>安全性・信頼性</td><td>飛行場所や飛行方法の規制は、墜落時の危険、有人航空機との接触、気象・環境条件などのリスク管理と結びついている</td><td></td></tr></tbody></table></figure>
+<!-- /wp:table -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">参考情報</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul><li><a href="https://www.faa.gov/newsroom/faa-steps-drone-enforcement-2025" target="_blank" rel="noopener">FAA「FAA Steps Up Drone Enforcement in 2025」</a>（2026/02/06公表）</li><li><a href="https://www.faa.gov/fifaworldcup2026" target="_blank" rel="noopener">FAA「FAA&#x27;s Safety Plan for FIFA World Cup 2026」</a>（2026/05公表）</li><li><a href="https://www.federalregister.gov/documents/2025/08/07/2025-14996/normalizing-unmanned-aircraft-systems-beyond-visual-line-of-sight-operations" target="_blank" rel="noopener">Federal Register「Normalizing Unmanned Aircraft Systems Beyond Visual Line of Sight Operations」</a>（2025/08/07公表）</li><li><a href="https://www.mlit.go.jp/koku/koku_fr10_000041.html" target="_blank" rel="noopener">国土交通省「無人航空機の飛行禁止空域と飛行の方法」</a></li><li><a href="https://www.dips.mlit.go.jp/" target="_blank" rel="noopener">国土交通省「DIPS2.0（ドローン情報基盤システム）」</a></li><li><a href="https://www.mlit.go.jp/koku/remotepilot.html" target="_blank" rel="noopener">国土交通省「無人航空機操縦者技能証明制度」</a></li><li><a href="https://www.pref.osaka.lg.jp/o020060/drone_jyorei2.html" target="_blank" rel="noopener">大阪府「大阪・関西万博におけるドローン飛行等の規制条例」</a></li><li><a href="https://www.npa.go.jp/bureau/security/kogatamujinki/index.html" target="_blank" rel="noopener">警察庁「小型無人機等飛行禁止法」</a></li></ul>
+<!-- /wp:list -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">お問い合わせ</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>ドローンや空飛ぶクルマなど、次世代モビリティの安全性・信頼性評価についてご関心がある方は、お気軽にご相談ください。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:paragraph -->
+<p><em>本コラムで取り上げた内容に関連する試験（環境試験・耐久評価・振動試験など）については、エボルテックの<a href="https://evoltech-shiken.com/environmental_tests/" target="_blank" rel="noopener">環境試験一覧</a>もあわせてご覧ください。</em></p>
+<!-- /wp:paragraph -->
