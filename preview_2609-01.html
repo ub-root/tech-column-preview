@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ja" prefix="og: https://ogp.me/ns#" class="no-js">
+<head>
+<script>var _localBase = window.location.href.replace(/\/[^\/]*$/, '/');</script>
+<base href="https://evoltech-shiken.com/">
+
+	<meta charset="UTF-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="format-detection" content="telephone=no">
+	<script>(function(){document.documentElement.className='js'})();</script>
+	<title>同じ震度でも、壊れるものと壊れないものがある 揺れの周期と、それを試験室で再現するということ | コラム | エボルテック株式会社</title>
+
+	<meta name="robots" content="noindex, nofollow" />
+
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+
+<style id='wp-img-auto-sizes-contain-inline-css' type='text/css'>
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+</style>
+<style id='wp-block-library-inline-css' type='text/css'>
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-border-width-focus:2px}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.screen-reader-text{border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal!important}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}
+</style>
+<style id='wp-block-heading-inline-css' type='text/css'>
+h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-background,h3:where(.wp-block-heading).has-background,h4:where(.wp-block-heading).has-background,h5:where(.wp-block-heading).has-background,h6:where(.wp-block-heading).has-background{padding:1.25em 2.375em}
+</style>
+<style id='wp-block-list-inline-css' type='text/css'>
+ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:1.25em 2.375em}
+</style>
+<style id='wp-block-separator-inline-css' type='text/css'>
+.wp-block-separator{border:none;border-top:2px solid}
+</style>
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}
+</style>
+<link rel='stylesheet' id='contact-form-7-css' href='https://evoltech-shiken.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='toc-screen-css' href='https://evoltech-shiken.com/wp-content/plugins/table-of-contents-plus/screen.min.css?ver=2411.1' type='text/css' media='all' />
+
+	<style type="text/css" id="wp-custom-css">
+.expert-box {
+    border: 2px solid #ccc;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}	</style>
+
+	<link rel="icon" href="https://evoltech-shiken.com/wp-content/themes/evoltech/favicon.ico" type="image/vnd.microsoft.icon">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/yakuhanjp/1.3.1/css/yakuhanjp.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Noto+Sans+JP:wght@400;500;700;900&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://evoltech-shiken.com/wp-content/themes/evoltech/style.css?ver1.0959" type="text/css">
+
+<style>
+    .preview-banner {
+        background-color: #d32f2f;
+        color: #ffffff;
+        text-align: center;
+        padding: 12px 0;
+        font-weight: bold;
+        font-size: 20px;
+        position: sticky;
+        top: 0;
+        z-index: 1000000;
+        width: 100%;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        letter-spacing: 0.1em;
+        font-family: "Noto Sans JP", sans-serif;
+    }
+    .l-header__top-inner-logo img,
+    .l-footer__top-inner-logo img,
+    .l-header__logo img,
+    p.l-header__top-inner-logo a img {
+        filter: grayscale(100%) brightness(0.8) !important;
+        opacity: 0.6 !important;
+    }
+    body::after {
+        content: "PREVIEW";
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(-45deg);
+        font-size: 15vw;
+        color: rgba(0, 0, 0, 0.03);
+        z-index: 9999999;
+        pointer-events: none;
+        white-space: nowrap;
+    }
+    .wp-block-table table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    .wp-block-table th, .wp-block-table td {
+        padding: 1.2em 1.5em !important;
+        line-height: 1.8;
+        border: 1px solid #dee2e6;
+    }
+    .ref-list { padding-left: 1.5em; }
+    .ref-list li { margin-bottom: 0.6em; line-height: 1.7; font-size: 0.9em; }
+</style>
+
+<style>
+    .image-placeholder {
+        background-color: #f8f9fa;
+        border: 2px dashed #adb5bd;
+        padding: 56px 20px;
+        text-align: center;
+        margin: 30px 0;
+        border-radius: 8px;
+    }
+    .image-placeholder span {
+        display: block;
+        font-size: 1.15em;
+        font-weight: 700;
+        color: #495057;
+    }
+    .image-placeholder small {
+        display: block;
+        margin-top: 10px;
+        color: #6c757d;
+        line-height: 1.8;
+    }
+</style>
+</head>
+<body class="wp-singular column-template-default single single-column wp-theme-evoltech">
+<div class="preview-banner">⚠️ プレビュー表示用ページ ⚠️（外部公開用ではありません）</div>
+
+<div class="l-wrap">
+	<div class="l-cover"></div>
+
+	<div class="l-humberger sp">
+		<a class="menu-trigger js-MenuBtn" href="#">
+			<span></span><span></span><span></span>
+		</a>
+	</div>
+
+	<div class="l-drawerMenu js-drawerMenu sp">
+		<div class="l-drawerMenu__inner">
+			<ul>
+				<li><a href="https://evoltech-shiken.com/" class="ov">ホーム</a></li>
+				<li><a href="https://evoltech-shiken.com/vibration_test/" class="ov">振動試験とは</a></li>
+				<li><a href="https://evoltech-shiken.com/dimensions/" class="ov">装置・治具取付け部寸法</a></li>
+				<li><a href="https://evoltech-shiken.com/environmental_tests/" class="ov">環境試験一覧</a></li>
+				<li><a href="https://evoltech-shiken.com/#schedule" class="ov">空き状況</a></li>
+				<li><a href="https://evoltech-shiken.com/column/" class="ov">コラム</a></li>
+				<li><a href="https://evoltech-shiken.com/news/" class="ov">お知らせ</a></li>
+				<li><a href="https://evoltech-shiken.com/company/" class="ov">企業情報</a></li>
+			</ul>
+			<div class="tel">
+				<a href="tel:053-523-7300" class="ov">
+					<span class="txt01">営業時間╱9時～18時（土日祝除く）</span>
+					<span class="num">053-523-7300</span>
+					<span class="txt02">無料相談・無料お見積OK！お気軽にご相談ください！</span>
+				</a>
+			</div>
+			<div class="contact">
+				<a href="https://evoltech-shiken.com/contacts/" class="ov">
+					<span class="txt01">24時間受付中</span>
+					<span class="icon">見積・お問い合わせ</span>
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<header class="l-header">
+		<div class="l-header__top define_wrap">
+			<div class="l-header__top-inner">
+				<p class="l-header__top-inner-logo">
+					<a href="https://evoltech-shiken.com/"><img src="https://evoltech-shiken.com/wp-content/themes/evoltech/images/common/logo01.png" alt="エボルテック"></a>
+				</p>
+				<div class="l-header__top-inner-right">
+					<div class="tel">
+						<p class="tel__balloon">無料相談・無料お見積OK<br>お気軽にご連絡ください！</p>
+						<div class="tel__box">
+							<p class="tel__box-num Roboto"><a href="tel:053-523-7300">053-523-7300</a></p>
+							<p class="tel__box-time">営業時間╱9時～18時（土日祝除く）</p>
+						</div>
+					</div>
+					<div class="contact js-head-contacts">
+						<a href="https://evoltech-shiken.com/contacts/" class="ov parent"><span>見積・お問い合わせ</span></a>
+						<div class="contact__child">
+							<ul class="contact__child-list">
+								<li><a href="https://evoltech-shiken.com/contacts/vibration_test/" class="ov">振動試験 各種お見積のご依頼</a></li>
+								<li><a href="https://evoltech-shiken.com/contacts/dust_resistance_test/" class="ov">塵埃試験・その他試験 お見積のご依頼</a></li>
+								<li><a href="https://evoltech-shiken.com/contacts/contact/" class="ov">一般お問い合わせ</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="l-header__bottom define_wrap">
+			<div class="l-header__bottom-inner">
+				<nav class="l-header__bottom-inner-content">
+					<ul class="navi">
+						<li><a href="https://evoltech-shiken.com/" class="ov">ホーム</a></li>
+						<li><a href="https://evoltech-shiken.com/vibration_test/" class="ov">振動試験とは</a></li>
+						<li><a href="https://evoltech-shiken.com/dimensions/" class="ov">装置・治具取付け部寸法</a></li>
+						<li><a href="https://evoltech-shiken.com/environmental_tests/" class="ov">環境試験一覧</a></li>
+						<li><a href="https://evoltech-shiken.com/#schedule" class="ov">空き状況</a></li>
+						<li><a href="https://evoltech-shiken.com/column/" class="ov">コラム</a></li>
+						<li><a href="https://evoltech-shiken.com/news/" class="ov">お知らせ</a></li>
+						<li><a href="https://evoltech-shiken.com/company/" class="ov">企業情報</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+	<main class="l-main">
+
+		<section class="c-sub-hero define_wrap">
+			<div class="c-sub-hero__inner define_inner-1000">
+				<div class="c-sub-hero__inner-box">
+					<h1 class="ttl">コラム</h1>
+					<p class="txt01 Lato">Column</p>
+				</div>
+			</div>
+		</section>
+
+		<div class="c-breadcrumb define_wrap">
+			<div class="c-breadcrumb__inner define_inner-1000">
+				<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="https://evoltech-shiken.com" class="home"><span property="name">ホーム</span></a><meta property="position" content="1"></span>
+				<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="https://evoltech-shiken.com/column/" class="archive post-column-archive"><span property="name">コラム</span></a><meta property="position" content="2"></span>
+				<span property="itemListElement" typeof="ListItem"><span property="name" class="post post-column current-item">同じ震度でも、壊れるものと壊れないものがある<br>揺れの周期と、それを試験室で再現するということ</span><meta property="position" content="3"></span>
+			</div>
+		</div>
+
+		<div class="c-archive-page define_wrap">
+			<div class="c-archive-page__inner define_inner">
+
+				<div class="c-archive-page__inner-main">
+					<section class="c-single">
+						<h1 class="c-single__ttl">同じ震度でも、壊れるものと壊れないものがある<br>揺れの周期と、それを試験室で再現するということ</h1>
+						<div class="c-single__meta">
+							<p class="date Lato">2026.08.31</p>
+							<p class="cate"><a href="#" class="ov dark-blue">防災</a></p>
+							<p style="margin-left: 15px; color: #d32f2f; font-weight: bold; background: #ffebea; padding: 2px 10px; border-radius: 4px; border: 1px solid #d32f2f;">推定文字数: 4,479文字</p>
+						</div>
+
+<div class="c-single__entry entry_content clearfix">
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<figure class="wp-block-image aligncenter">
+    <!-- クライアント支給画像：制作側での画像作成・ローカル配置は不要 -->
+    <img data-local="images/2609-01/2609-01.png" data-customer-supplied="true" src="" alt="室内から窓の外を見ている構図で、地面や建物がわずかに揺れていることを示唆する情景。特定の被災地や被害の様子は描かず、「誰の身の回りにも起こりうる揺れ」という記事のテーマを先取りする。" style="max-width: 100%; height: auto;">
+</figure>
+<h2 class="wp-block-heading">はじめに──「最近、地震が多い気がする」</h2>
+<p>スマートフォンが鳴り、ニュースを開くと、震源と各地の震度が一覧で並んでいる。そんな場面に、以前より多く出会っている気がする——そう感じている方は少なくないのではないでしょうか。</p>
+<p>2026年7月28日には、熊本県熊本地方を震源とする地震で最大震度7が観測されました。気象庁はこれを「令和8年熊本地震」と名付けています。内陸の浅いところで起きる地震もあれば、海側で起きる地震もあり、揺れの伝わり方はそのたびに違います。</p>
+<p>報じられる被害の様子も、一様ではありません。近い場所で同じ程度の震度が観測されていても、建物によって被害の大きさがはっきり分かれることがあります。</p>
+<p>この違いは、どこから来るのでしょうか。</p>
+<p>地震の話題では、マグニチュード、震度、加速度といった数字が並びます。どれも「揺れの大きさ」を表す言葉のように見えますが、指しているものはそれぞれ違います。そして被害の大小を決めているのは、これらの数字だけではないと言われています。</p>
+<p>鍵の一つになるのが、揺れの速さ——周期です。この記事では、その周期という見方をたどりながら、最後に「揺れを人工的につくって確かめる」という方法まで話を進めます。</p>
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<h2 class="wp-block-heading">「規模」と「揺れ」と「加速度」は、別のもの</h2>
+<p>地震のニュースには、性質の違う数字が同時に登場します。まずここを分けておくと、そのあとの話が見通しやすくなります。</p>
+<h3 class="wp-block-heading">マグニチュードは地震の大きさ、震度はその場所の揺れ</h3>
+<p>マグニチュードは、地震そのものの規模を表す指標です。同じ算定方式であれば、ひとつの地震にひとつの代表値が示されます。ただし算定の方式は複数あり、解析が進むにつれて値が更新されることもあります。</p>
+<p>いっぽう震度は、それぞれの場所でどれくらい揺れたかを表す数値です。一般には震源に近いほど大きくなりますが、地盤や地形の条件によって、近くても揺れ方が異なることがあると説明されています。気象庁の震度階級は0から7までで、5と6には「弱」「強」の区別があるため、全体では10の階級に分かれています。</p>
+<p>マグニチュードは地震の側の数字、震度は私たちの側の数字。そう整理すると、「規模は大きいのに、そこではあまり揺れなかった」という状況も理解しやすくなります。</p>
+<h3 class="wp-block-heading">震度は、加速度の大きさだけでは決まらない</h3>
+<p>では震度は、揺れの加速度をそのまま表しているのでしょうか。実は、そう単純ではありません。</p>
+<p>現在の震度は、地震計が記録した揺れの波形をもとに計算されています。その過程では、揺れに含まれる周期の成分に重みがつけられ、さらに強い揺れがどれくらいの時間続いたかも考慮されると説明されています。</p>
+<p>一瞬だけ鋭く振れた揺れと、中くらいの強さが長く続いた揺れ。加速度の最大値が同じでも、震度が同じになるとは限りません。震度は、揺れの「強さ」と「速さ」と「長さ」をひとつの数字にまとめたもの、と考えると実態に近くなります。</p>
+<h3 class="wp-block-heading">揺れの中身は、地震ごとに違う</h3>
+<p>揺れに含まれる周期の成分は、地震の規模、震源の深さ、距離、地下の構造など、さまざまな条件で変わります。</p>
+<p>内陸の浅いところで起きる地震では、震源が近いぶん、短時間に強い揺れとなる例が多いとされています。突き上げるような感覚として語られることが多いのは、このタイプです。</p>
+<p>いっぽう規模の大きな地震では、ゆっくりとした周期の成分も生じやすく、遠くまで届きます。海溝型の巨大地震で、離れた都市の長周期の揺れが問題になるのはこのためです。船に乗っているような、長く続く揺れとして感じられます。</p>
+<p>同じ「震度4」でも体感がまるで違うことがあるのは、こうした中身の差によるものです。</p>
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<h2 class="wp-block-heading">同じ震度でも、壊れるものと壊れないものがある</h2>
+<figure class="wp-block-image aligncenter">
+        <!-- image prompt:
+    A clean technical editorial illustration for a Japanese engineering column about how different objects have different natural periods of oscillation.
+    White and pale gray background, wide horizontal composition, abstract diagram rather than a realistic scene.
+    Show three simplified vertical column-like forms of clearly different heights, standing side by side on a common base line. Each column is drawn mid-sway, tilted by a different amount, so the viewer reads that the short stiff one moves quickly through a small arc while the tall slender one moves slowly through a wide arc.
+    Behind each column, add a faint arc trace suggesting the swing path, with the arc getting longer as the column gets taller. Keep the base line thin and plain.
+    Low saturation, muted slate blue for the columns and soft warm gray for the traces, soft diffused lighting, clean vector-like abstraction or semi-realistic 3D render, lots of whitespace, 16:9 composition.
+
+    negative prompt:
+    no readable text, no letters, no numbers, no labels, no logos, no brand names, no real product, no real building, no map, no human face, no hands, no people, no dramatic lighting, no neon colors, no cyberpunk, no futuristic hologram UI, no glow effects, no crowded background, no photographic realism, no disaster imagery, no rubble, no damaged buildings.
+    -->
+    <img data-local="images/2609-01/section-11.png" src="" alt="高さの異なる三つの柱状の構造物が、それぞれ違う速さで左右に揺れている様子を抽象化した図。振り子の長さの違いとして表現し、文字や数値は使わない。「ものによって揺れやすいリズムが違う」という一点だけを伝える構成。" style="max-width: 100%; height: auto;">
+</figure>
+<p>ここからが本題です。揺れの強さが同じでも、壊れるものと壊れないものが出てきます。手がかりは、揺れの側の周期と、ものの側の「揺れやすさ」の関係にあります。</p>
+<h3 class="wp-block-heading">ものには、揺れやすい周期がある</h3>
+<p>建物でも、棚でも、機械でも、少し押して手を離すと、決まったリズムで揺れて止まります。このリズムを固有周期と呼びます。</p>
+<p>背が低く硬いものほど、速く小刻みに揺れる。背が高くしなやかなものほど、ゆっくり大きく揺れる。小さな揺れで測った木造住宅ではおよそ0.2〜0.5秒、超高層のビルでは数秒に達するとされています。</p>
+<p>身近なところでは、ブランコがそうです。ブランコには、その長さで決まった揺れのリズムがあります。そのリズムを無視して速く押しても遅く押しても、大きくは振れません。</p>
+<h3 class="wp-block-heading">周期が合うと、揺れは育つ</h3>
+<p>ブランコが大きく振れるのは、押すタイミングがそのブランコのリズムと合ったときだけです。ひと押しの力は小さくても、合っていれば揺れはどんどん大きくなっていきます。</p>
+<p>これが共振と呼ばれる現象です。地震でも近いことが起こります。地面の揺れに多く含まれる周期と、その建物の固有周期が近ければ、応答は大きくなりやすい。ずれていれば、相対的に大きくなりにくいことがあります。</p>
+<p><strong>どれだけ強く揺れたかより、どの速さで揺れたかが効く場面がある。</strong>被害が一律にならない理由のひとつは、ここにあるとされています。</p>
+<h3 class="wp-block-heading">揺れているあいだに、周期は変わる</h3>
+<p>ただし、固有周期は固定された値ではありません。</p>
+<p>大きな地震で建物が変形し、損傷が進むと、硬さが下がって実効的な周期は長くなっていきます。平常時に0.2〜0.5秒だった木造住宅も、揺れているあいだに、より長い周期で揺れる状態へ移っていくことがあると説明されています。</p>
+<p>1995年の兵庫県南部地震では、木造住宅に甚大な被害が出ました。このとき記録された揺れには、1秒から2秒程度の周期の成分が多く含まれていたことが知られています。損傷して周期が伸びた建物が、この帯域と噛み合っていったという説明がなされてきました。</p>
+<p>もっとも、被害の大きさは周期の関係だけで決まるものではありません。建物の耐力、建てられた年代、地盤の条件も関わります。周期は、いくつかある要因のうちのひとつです。</p>
+<h3 class="wp-block-heading">距離だけでは決まらない</h3>
+<p>周期の影響は、震源から遠い場所にも及びます。</p>
+<p>2011年の東北地方太平洋沖地震では、震源から数百キロ離れた地域でも、高層ビルが長い時間ゆっくりと揺れ続けたことが報告されています。ゆっくりした周期の揺れは遠くまで減りにくく、周期の長い超高層ビルと噛み合ったためだと説明されています。</p>
+<p>気象庁はこうした揺れを長周期地震動として扱い、階級による情報を提供しています。2026年7月の令和8年熊本地震でも、熊本県内で長周期地震動階級4が観測されました。通常の震度と長周期地震動階級は必ずしも一致しません。<strong>二つの尺度は、性質の違う揺れを見ています。</strong></p>
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<h2 class="wp-block-heading">揺れを、つくって確かめる</h2>
+<figure class="wp-block-image aligncenter">
+        <!-- image prompt:
+    A clean technical editorial illustration for a Japanese engineering column about vibration testing.
+    White and pale gray background, wide horizontal composition, semi-realistic 3D render with strong abstraction.
+    Show a simple flat shaker table surface, and on top of it a plain geometric block held down by a simple bracket-like fixture with a few bolt points. The object must not resemble any real product; keep it a neutral rounded rectangular volume.
+    Around and behind the table, place very faint horizontal bands of varying density to suggest a distribution of vibration energy across frequencies, plus two or three thin measurement lines running to small plain marker dots on the object.
+    Low saturation, muted slate blue and soft warm gray, soft diffused lighting, lots of whitespace, calm professional tone, 16:9 composition.
+
+    negative prompt:
+    no readable text, no letters, no numbers, no labels, no logos, no brand names, no real product, no real building, no map, no human face, no hands, no people, no dramatic lighting, no neon colors, no cyberpunk, no futuristic hologram UI, no glow effects, no crowded background, no photographic realism, no disaster imagery, no rubble, no damaged buildings.
+    -->
+    <img data-local="images/2609-01/section-21.png" src="" alt="加振装置の上に治具で固定された抽象的な対象物を、白背景・低彩度の半写実3Dで表現する。周囲に周波数帯を示す薄い波形を配置し、特定の製品や企業を想起させない構成にする。" style="max-width: 100%; height: auto;">
+</figure>
+<p>被害の分かれ目に周期が関わるのなら、ものをつくる側は「自分たちのつくったものが、どの周期でどれだけ揺れるのか」を知りたくなります。</p>
+<p>その確かめ方は、意外なほど直接的です。実際に揺らしてみる。振動試験と呼ばれる方法で、対象を台の上に固定し、狙った揺れを与えて反応を測ります。</p>
+<h3 class="wp-block-heading">揺れやすい周期を探す</h3>
+<p>まず行われることのひとつが、揺れの速さを少しずつ変えながら加え、対象がどこで大きく振れるかを調べる方法です。</p>
+<p>ゆっくりした揺れから速い揺れへ、あるいはその逆へ、連続的に変化させていきます。ある周波数にさしかかったところで振れ幅が跳ね上がれば、そこがその対象の共振点ということになります。ブランコのリズムを、手当たり次第に押して探すようなものです。</p>
+<p>どこで大きく揺れるかが分かれば、そこを避けるのか、補強するのか、支え方を変えるのかという判断ができます。何をどこまで調べるかは、対象や適用する規格によって変わります。</p>
+<h3 class="wp-block-heading">現実の揺れは、ひとつの周期ではない</h3>
+<p>実際の環境に「ひとつの周期だけの揺れ」はほとんどありません。地震も、道路の凹凸も、輸送中の振動も、いろいろな速さの揺れが混ざっています。</p>
+<p>そこで、複数の周期を同時に含んだ揺れを与える方法が使われます。このとき決めるのは、単純な大きさではなく、周波数ごとの揺れの強さを表した分布です。PSD（パワースペクトル密度）と呼ばれます。</p>
+<p>この配分を変えれば、再現している環境そのものが変わります。同じ「激しく揺らす試験」に見えても、想定している場面は別物になる。<strong>試験条件が数字の羅列に見えて、実は環境の記述になっているのはこのためです。</strong></p>
+<h3 class="wp-block-heading">記録された揺れをもとに、入力をつくる</h3>
+<p>さらに直接的な方法として、観測された地震の波形をもとに入力をつくる形もあります。</p>
+<p>ある地震で、ある地点で記録された揺れを、時間の流れごと再現するという考え方です。想定を数値で組み立てるのではなく、起きたことをなぞる。据え付けられる機器の評価などで用いられることがあると言われています。</p>
+<p>ただし、記録をそのまま流し込めるわけではありません。装置が動かせる幅や速さには限りがあり、試験の目的や方向に応じて振幅や時間軸を調整することもあります。要求される応答に合わせて人工的な波形を作る方法もあり、こうした手順は規格に整理されています。</p>
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<h2 class="wp-block-heading">「どこまでの揺れ」を想定するかは、誰が決めるのか</h2>
+<p>ここまでの話には、まだ触れていない前提があります。試験で与える揺れの条件を、どこかで誰かが決めなければならない、という点です。</p>
+<h3 class="wp-block-heading">条件は、置かれ方から決まる</h3>
+<p>同じものでも、床に固定されるのか、車に載るのか、トラックで運ばれるのかで、受ける揺れはまったく違います。建物の中に据え付けられるなら、何階に置かれるかでも変わります。一般には上層ほど応答が大きくなりやすいとされますが、建物の振動の特性によっても変わります。</p>
+<p>試験条件の多くは規格に示されていますが、規格が用意しているのは選択肢です。そのうちどの厳しさを選ぶかは、使われ方を知っている側にしか決められません。</p>
+<h3 class="wp-block-heading">固定の仕方が、結果を左右する</h3>
+<p>もうひとつ、結果を大きく左右するのが固定の方法です。</p>
+<p>対象を試験機に取り付けるための器具を治具と呼びます。この治具の設計が甘いと治具自体が揺れてしまい、対象に届く揺れが変わってしまう。同じものを同じ条件で揺らしても、据え方が違えば結果が変わるとされ、現場では試験そのものと同じくらい重視されるところです。</p>
+<p>地震のニュースに並ぶ数字は、起きた揺れを観測して得られる値です。速報の段階では推定された値が示され、その後の解析で更新されることもあります。いずれにせよ、確かめられるのは揺れたあとです。</p>
+<p>いっぽうで、身の回りにあるものは、まだ起きていない揺れを想定してつくられています。どの周期の揺れが、どれくらいの強さで、どれくらいの時間加わるのか。その想定は、実際にどう使われるかを知っている人にしか置けないものです。</p>
+<p>同じ震度で壊れるものと壊れないものが分かれるとき、そこには揺れの性質だけでなく、誰かが置いた想定の差も含まれているのかもしれません。</p>
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<h2 class="wp-block-heading">参考情報</h2>
+<ul class="ref-list"><li><a href="https://www.jma.go.jp/jma/kishou/know/shindo/index.html" target="_blank" rel="noopener">気象庁「震度について」</a></li><li><a href="https://www.jma.go.jp/jma/kishou/know/faq/faq27.html" target="_blank" rel="noopener">気象庁「震度・マグニチュード・地震情報について」（よくある質問）</a></li><li><a href="https://www.jma.go.jp/jma/kishou/know/jishin/choshuki/choshuki_eq2.html" target="_blank" rel="noopener">気象庁「長周期地震動の特徴」</a></li><li><a href="https://www.jma.go.jp/jma/menu/20260728_kumamoto_jishin.html" target="_blank" rel="noopener">気象庁「令和8年熊本地震 ポータルサイト」</a></li><li><a href="https://www.mlit.go.jp/report/press/house05_hh_000218.html" target="_blank" rel="noopener">国土交通省「超高層建築物等における長周期地震動への対策試案」</a></li><li><a href="https://www.kyoshin.bosai.go.jp/" target="_blank" rel="noopener">防災科学技術研究所「強震観測網（K-NET、KiK-net）」</a></li><li><a href="https://webstore.iec.ch/en/publication/542" target="_blank" rel="noopener">IEC「IEC 60068-2-57（Time-history and sine-beat method）」</a></li><li><a href="https://www.jisc.go.jp/app/jis/general/GnrJISSearch.html" target="_blank" rel="noopener">日本産業標準調査会「JIS検索」</a></li></ul>
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<h2 class="wp-block-heading">お問い合わせ</h2>
+<p>振動試験、共振点の確認、据付・輸送を想定した振動条件の検討についてのご相談は、お気軽にどうぞ。どのような条件で試験すべきか決めかねている段階でも対応しています。</p>
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<p><em>本コラムで取り上げた内容に関連する試験については、エボルテックの<a href="https://evoltech-shiken.com/vibration_test/" target="_blank" rel="noopener">振動試験</a>もあわせてご覧ください。</em></p>
+						</div>
+
+					<div class="c-single__cv">
+						<h2 class="c-single__cv-ttl"><span class="marker-yellow">振動試験</span>に関する<span class="marker-yellow">お悩み</span>は<br>
+							エボルテックまでお気軽に<br class="sp">ご相談・お問い合わせください。</h2>
+						<div class="c-single__cv-btn">
+							<div class="simulation">
+								<a href="https://evoltech-shiken.com/simulation/" class="ov"><span>見積シミュレーション</span></a>
+							</div>
+							<div class="contact">
+								<a href="https://evoltech-shiken.com/contacts/" class="ov"><span>見積・お問い合わせ</span></a>
+							</div>
+						</div>
+					</div>
+
+					<section class="c-single__latest">
+						<h2 class="c-single__latest-ttl">最新記事</h2>
+						<div class="c-column-archive">
+							<div class="c-column-archive__list">
+								<section class="c-column-archive__list-sec">
+									<a href="./preview_2605-01.html" class="ov">
+										<div class="meta"><p class="date Lato">2026.05.18</p></div>
+										<h3 class="ttl">AI工場の話題は「省人化」から「品質の再現性」へ向かっているように見える。製造現場のAIをめぐる動向と、試験・評価への視点</h3>
+									</a>
+								</section>
+								<section class="c-column-archive__list-sec">
+									<a href="./preview_2604-02.html" class="ov">
+										<div class="meta"><p class="date Lato">2026.03.17</p></div>
+										<h3 class="ttl">EV電池は増えるが、供給は偏る。LFP拡大が揺さぶる「電池試験の前提条件」という論点</h3>
+									</a>
+								</section>
+								<section class="c-column-archive__list-sec">
+									<a href="./preview_2604-01.html" class="ov">
+										<div class="meta"><p class="date Lato">2026.03.17</p></div>
+										<h3 class="ttl">レアメタルの確保は「購買」ではなく「品質保証」の問題になる。代替材・代替サプライヤーへの切り替えが問う、評価の論点</h3>
+									</a>
+								</section>
+							</div>
+						</div>
+					</section>
+
+				</section>
+			</div>
+
+			<aside class="c-archive-page__inner-side">
+	<section class="c-widget">
+		<h3 class="c-widget__ttl">カテゴリから選ぶ</h3>
+		<div class="c-widget__body">
+			<ul class="c-widget-list">
+				<li><a href="https://evoltech-shiken.com/column/" class="ov">すべて</a></li>
+				<li><a href="https://evoltech-shiken.com/column_category/%e3%81%9d%e3%81%ae%e4%bb%96%e8%a9%a6%e9%a8%93/" class="ov">その他試験</a></li>
+				<li><a href="https://evoltech-shiken.com/column_category/dust_test/" class="ov">塵埃試験</a></li>
+				<li><a href="https://evoltech-shiken.com/column_category/vibration_test/" class="ov">振動試験</a></li>
+				<li><a href="https://evoltech-shiken.com/column_category/temperature_test/" class="ov">温度試験</a></li>
+			</ul>
+		</div>
+	</section>
+	<section class="c-widget">
+		<h3 class="c-widget__ttl">アーカイブ</h3>
+		<div class="c-widget__select">
+			<select name="year" onChange="document.location.href=this.options[this.selectedIndex].value;">
+				<option value="">選択してください</option>
+				<option value='https://evoltech-shiken.com/column/date/2026/'> 2026年 </option>
+				<option value='https://evoltech-shiken.com/column/date/2025/'> 2025年 </option>
+			</select>
+		</div>
+	</section>
+</aside>
+		</div>
+	</div>
+
+	</main>
+
+	<div class="l-pageTop js-pageTop">
+		<a href="#" class="ov"><img src="https://evoltech-shiken.com/wp-content/themes/evoltech/images/common/pagetop.png" alt="page top"></a>
+	</div>
+
+	<div class="l-fixed-contents sp">
+		<div class="tel">
+			<a href="tel:053-523-7300">
+				<span class="txt01">営業時間╱9時～18時（土日祝除く）</span>
+				<span class="icon Roboto">053-523-7300</span>
+			</a>
+		</div>
+		<div class="contact">
+			<a href="https://evoltech-shiken.com/contacts/">
+				<span class="txt01">24時間受付中</span>
+				<span class="icon">見積・お問い合わせ</span>
+			</a>
+		</div>
+	</div>
+
+	<footer class="l-footer">
+		<div class="l-footer__top define_wrap">
+			<div class="l-footer__top-inner define_inner">
+				<p class="l-footer__top-inner-logo"><a href="https://evoltech-shiken.com/"><img src="https://evoltech-shiken.com/wp-content/themes/evoltech/images/common/logo01.png" alt="エボルテック"></a></p>
+				<div class="l-footer__top-inner-right">
+					<div class="tel">
+						<p class="tel__balloon">無料相談・無料お見積OK<br>お気軽にご連絡ください！</p>
+						<div class="tel__box">
+							<p class="tel__box-num Roboto"><a href="tel:053-523-7300">053-523-7300</a></p>
+							<p class="tel__box-time">営業時間╱9時～18時（土日祝除く）</p>
+						</div>
+					</div>
+					<div class="contact js-head-contacts">
+						<a href="https://evoltech-shiken.com/contacts/" class="ov parent"><span>見積・お問い合わせ</span></a>
+						<div class="contact__child">
+							<ul class="contact__child-list">
+								<li><a href="https://evoltech-shiken.com/contacts/vibration_test/" class="ov">振動試験 各種お見積のご依頼</a></li>
+								<li><a href="https://evoltech-shiken.com/contacts/dust_resistance_test/" class="ov">塵埃試験・その他試験 お見積のご依頼</a></li>
+								<li><a href="https://evoltech-shiken.com/contacts/contact/" class="ov">一般お問い合わせ</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="l-footer__navi define_wrap">
+			<div class="l-footer__navi-inner define_inner">
+				<nav class="l-footer__navi-inner-content">
+					<ul class="navi">
+						<li><a href="https://evoltech-shiken.com/" class="ov">ホーム</a></li>
+						<li><a href="https://evoltech-shiken.com/vibration_test/" class="ov">振動試験とは</a></li>
+						<li><a href="https://evoltech-shiken.com/dimensions/" class="ov">装置・治具取付け部寸法</a></li>
+						<li><a href="https://evoltech-shiken.com/environmental_tests/" class="ov">環境試験一覧</a></li>
+						<li><a href="https://evoltech-shiken.com/#schedule" class="ov">空き状況</a></li>
+						<li><a href="https://evoltech-shiken.com/column/" class="ov">コラム</a></li>
+						<li><a href="https://evoltech-shiken.com/news/" class="ov">お知らせ</a></li>
+						<li><a href="https://evoltech-shiken.com/company/" class="ov">企業情報</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<div class="l-footer__bottom">
+			<div class="l-footer__bottom-inner">
+				<p class="l-footer__bottom-inner-copy">© 2024 Evoltech Co.,Ltd | <a href="https://carearc.co.jp/" style="color: inherit; text-decoration: none;">Produced by CAREARC, Inc.</a></p>
+			</div>
+		</div>
+	</footer>
+</div>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js?ver=1.12.4" id="jquery-js"></script>
+<script type="text/javascript" src="https://evoltech-shiken.com/wp-content/themes/evoltech/js/common.js?ver1.0959" id="theme-js"></script>
+<script>
+document.querySelectorAll('img[data-local]').forEach(function(img) {
+    img.src = _localBase + img.getAttribute('data-local');
+});
+</script>
+</body>
+</html>
