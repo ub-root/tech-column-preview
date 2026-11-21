@@ -233,7 +233,7 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
 					<section class="c-single">
 						<h1 class="c-single__ttl">プロペラの細かな揺れは電子機器に何をする？ドローンに載せる機器の振動試験<br>東京都が始める、都市部でのドローン物流の実証から考える</h1>
 						<div class="c-single__meta">
-							<p class="date Lato">2026.11.16</p>
+							<p class="date Lato">2026.11.21</p>
 							<p class="cate"><a href="#" class="ov dark-blue">振動試験</a></p>
 							<p style="margin-left: 15px; color: #d32f2f; font-weight: bold; background: #ffebea; padding: 2px 10px; border-radius: 4px; border: 1px solid #d32f2f;">推定文字数: 2,953文字</p>
 						</div>
@@ -258,9 +258,7 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
 <p>国が機体の設計と製造を確かめる型式認証の基準でも、機体は、申請した運用の範囲（速度、風速、高度、雨の量、温度など）の中で使ったときに、耐久性と信頼性を持つように設計することが求められています。</p>
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <h2 class="wp-block-heading">プロペラの振動で、電子機器に起きること</h2>
-<figure class="wp-block-image aligncenter">
-    <img data-local="images/2611-02/section-11.png" src="" alt="回転するプロペラから細かな揺れの波が広がり、機体の中の基板やセンサーへ伝わっていく様子を抽象的に表したイメージ。文字や数値は使わない。" style="max-width: 100%; height: auto;">
-</figure>
+
 <p>ドローンの揺れの出どころは、プロペラとモーターです。半導体メーカーのアナログ・デバイセズが2026年10月に公開した技術記事では、小型のドローンで振動を測ったところ、推力が半分の状態でも300Hz付近に2.8g（重力の2.8倍の加速度）の揺れのピークがあり、揺れは数万Hzの高い周波数まで広がっていました。こうした揺れによって、電子機器には次の3つの問題が起きることがあります。</p>
 <h3 class="wp-block-heading">1. センサーの値がずれる</h3>
 <p>ドローンは、加速度や回転の速さを測るセンサー（慣性計測装置）で、自分の向きや位置を推定しています。同じ記事では、静かな条件での仕様から予想されるずれが50秒で約0.06°だったセンサーが、プロペラを回した状態では3.5°ずれたと報告されています。500m進むと、横方向に約30mの位置のずれになる計算です。</p>
@@ -268,6 +266,12 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
 <h3 class="wp-block-heading">2. 共振で、揺れが大きくなる</h3>
 <p>基板やカメラの取り付け部分には、それぞれ揺れやすい周波数（固有振動数）があります。プロペラの回転で出る揺れの周波数と重なると、共振（ある揺れ方に合わせて大きく揺れる現象）が起き、揺れが大きくなります。共振のしくみは、<a href="https://evoltech-shiken.com/column/1530/" target="_blank" rel="noopener">地震の揺れと共振を扱ったコラム</a>で紹介しています。</p>
 <p>前述の記事では、機体の設計を変えても、共振がなくなるのではなく、共振する周波数がずれるだけの場合があると指摘されています。</p>
+<figure class="wp-block-image aligncenter">
+    <!-- image prompt:
+    Create a BRAND NEW 16:9 illustration, at least 1600px wide, for the middle of a Japanese engineering article. The attached images are STYLE REFERENCES ONLY, for tactile soft materials, restrained pastel palette, beautiful close framing, white background and a clear material detail that carries meaning. Do not reproduce their objects. Quiet semi-realistic 3D editorial craft, softly lit, white and pale gray, slight cool slate tint only, no text or readable markings, no brands, no people, no floating structures, no graphical waves, no glowing ribbons, no fake UI. Macro material study of a single connector's soldered terminals on an unbranded pale sage-gray circuit board, a conceptual view of vibration fatigue from a drone electronics article. Two or three plain silver terminal pins embedded in rounded solder fillets on visible copper contact pads, cohesive engineered geometry with real physical contacts. One foreground solder fillet has a fine partial crescent-shaped fatigue crack around the base of its pin, subtle but clear at article scale, other joints remain intact. Do not sever the pin or explode parts. Shot from very low oblique viewpoint, board and connector cropped naturally, white background fades above, cool pale silver solder and sage traces, only essential details. Crisp focal joint, very gentle depth of field. No rust, sparks, burn marks or text.
+    -->
+    <img data-local="images/2611-02/section-11.png" src="" alt="基板上のコネクタ端子とはんだ接合部を拡大した概念イメージ。手前の接合部に部分的なひびがあり、奥の接合部は健全。" style="max-width: 100%; height: auto;">
+</figure>
 <h3 class="wp-block-heading">3. はんだやコネクタが傷む</h3>
 <p>細かな揺れが長い時間繰り返されると、基板のはんだ付け部分にひび割れが出たり、コネクタがゆるんで接触が悪くなったりすることがあります。配送のように同じ機体が毎日飛ぶ使い方では、揺れを受ける時間が積み重なります。こうした傷みは飛び始めてすぐには表に出ず、飛行時間が長期的に蓄積された後、通信が途切れる、センサーの値が乱れるといった不具合として現れることがあります。</p>
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
