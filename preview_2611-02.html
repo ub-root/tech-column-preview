@@ -233,7 +233,7 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
 					<section class="c-single">
 						<h1 class="c-single__ttl">プロペラの細かな揺れは電子機器に何をする？ドローンに載せる機器の振動試験<br>東京都が始める、都市部でのドローン物流の実証から考える</h1>
 						<div class="c-single__meta">
-							<p class="date Lato">2026.11.21</p>
+							<p class="date Lato">2026.11.22</p>
 							<p class="cate"><a href="#" class="ov dark-blue">振動試験</a></p>
 							<p style="margin-left: 15px; color: #d32f2f; font-weight: bold; background: #ffebea; padding: 2px 10px; border-radius: 4px; border: 1px solid #d32f2f;">推定文字数: 2,953文字</p>
 						</div>
@@ -241,7 +241,11 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
 <div class="c-single__entry entry_content clearfix">
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <figure class="wp-block-image aligncenter">
-    <img data-local="images/2611-02/2611-02.png" src="" alt="街の上空を飛ぶ配送ドローンを思わせる、プロペラ付きの機体と小さな荷物を抽象的に表したイメージ。文字や特定の製品・企業は描かない。" style="max-width: 100%; height: auto;">
+    <!-- image prompt:
+    Create one standalone 16:9 lead/thumbnail background image, ideally 1920x1080, at least 1600 pixels wide. Editorial image for Japanese engineering column. ABSOLUTELY NO text, numbers, letters, logos, brands, UI screens or readable signage. No people or faces. Main subject in right-hand 55%, with its essential silhouette within central 80% safe crop area. LEFT 40% must be quiet empty visual space for a headline that will be composed separately later. No text boxes, bands or frames. A bold near-top-down editorial view of a single generic four-rotor delivery drone carrying one small secure cardboard parcel underneath, flying low above an empty clean pale concrete logistics apron. The entire drone is contained in the right half, slight diagonal composition. Its separated soft ground shadow falls down-right, showing airborne distance. White and slate aircraft, four separate arms with one motor and two-blade rotor at each end, conventional civilian geometry and properly supported parcel underneath. High quality semi-realistic aerial illustration with restrained warm daylight, left 40% is uninterrupted empty concrete with very subtle tone, no pavement markings, buildings, city skyline, landmarks, military styling or sci-fi glow. This is about an identifiable delivery operation and its physical cargo.
+
+    -->
+    <img data-local="images/2611-02/2611-02.png" src="" alt="小さな荷物を機体の下に固定して運ぶ配送ドローン。機体と地面に落ちる影を斜め上から見たイメージ。" style="max-width: 100%; height: auto;">
 </figure>
 <h2 class="wp-block-heading">はじめに──都市部でのドローン配送が近づいている</h2>
 <p>東京都は2026年10月、都市部でのドローン物流の実用化を目指す事業に、臨海部と内陸部の2つの事業者グループを選びました。2026〜2027年度に、補助者を置かない目視外飛行の実証を進める計画です。配送ドローンが毎日のように飛ぶようになると、プロペラとモーターの振動が、機体に載せた電子機器に伝わり続けます。本記事では、ドローンの振動が電子機器に与える影響と、それを確かめる<strong>正弦波掃引振動試験</strong>、<strong>ランダム波振動試験</strong>、<strong>複合環境振動試験</strong>について解説します。</p>
@@ -291,10 +295,8 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
 <ul class="wp-block-list"><li>低温や高温で、防振マウントの効き方が変わらないか</li><li>温度が変わっても、センサーの値がずれないか</li></ul>
 <p>振動試験の基本は<a href="https://evoltech-shiken.com/column/324/" target="_blank" rel="noopener">振動試験の解説</a>で、エボルテックで受けられる試験の内容は<a href="https://evoltech-shiken.com/vibration_test/" target="_blank" rel="noopener">振動試験の紹介ページ</a>で紹介しています。</p>
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
-<h2 class="wp-block-heading">配送ドローンの振動と、試験の相関図</h2>
-<figure class="wp-block-image aligncenter">
-    <img data-local="images/2611-02/section-21.png" src="" alt="配送ドローンの振動と、それを確かめる試験の相関図。左に出来事（プロペラ・モーターの回転、回転数と取り付け部の揺れやすさの一致、毎日の配送で続く揺れ、暑さ・寒さの中での飛行）、中央に起きること（センサーの値のずれ、共振による大きな揺れ、はんだ・コネクタの傷み、防振マウントの効きの変化）、右に試験（ランダム波振動試験、正弦波掃引振動試験、複合環境振動試験）を並べて線で結ぶ構図。ラベル文字を含むため、AI生成ではなく図として作成する。" style="max-width: 100%; height: auto;">
-</figure>
+<h2 class="wp-block-heading">配送ドローンの振動と、対応する試験</h2>
+
 <p>配送ドローンの振動で起きることと、それを確かめる試験の関係を整理すると、次のようになります。</p>
 <figure class="wp-block-table is-style-regular"><table><thead><tr><th>出来事</th><th>起こりうること</th><th>確かめる試験</th></tr></thead><tbody><tr><td>プロペラ・モーターの回転</td><td>センサーの値のずれ</td><td>ランダム波振動試験</td></tr><tr><td>回転で出る揺れと、取り付け部の揺れやすさの一致</td><td>共振による大きな揺れ</td><td>正弦波掃引振動試験</td></tr><tr><td>毎日の配送で続く揺れ</td><td>はんだ・コネクタの傷み</td><td>ランダム波振動試験</td></tr><tr><td>暑さ・寒さの中での飛行</td><td>防振マウントの効き方の変化</td><td>複合環境振動試験</td></tr></tbody></table></figure>
 <p>前述の記事では、機体の揺れは推力や積んだ荷物、プロペラの形、取り付け方によって変わるとされています。次のようなときは、あらためて試験で確かめておくと安心です。</p>
